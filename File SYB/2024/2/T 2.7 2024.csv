@@ -1,0 +1,38 @@
+﻿ตาราง  2.7  ลูกจ้าง จำแนกตามระดับค่าจ้างหรือเงินเดือน เพศ และอุตสาหกรรม ไตรมาส 3 พ.ศ. 2566,,,,,,,,,,
+"Table   2.7  Employee by Wage/Salary, Sexand Industry: 3rd Quarter, 2023",,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,    (พันคน  Thousand persons)
+การจำแนก,การจำแนกย่อย 1,รวมยอด (Total),"ระดับค่าจ้าง/เงินเดือนต่อเดือน น้อยกว่า 2,500 บาท (Monthly wage/Salary level: Less than 2,500  Baht)","ระดับค่าจ้าง/เงินเดือนต่อเดือน 2,501 - 5,500 บาท (Monthly wage/Salary level:  2,501 - 5,500  Baht) ","ระดับค่าจ้าง/เงินเดือนต่อเดือน 5,501 - 10,000 บาท (Monthly wage/Salary level:  5,501 - 10,000  Baht)  ","ระดับค่าจ้าง/เงินเดือนต่อเดือน 10,001 - 15,000 บาท (Monthly wage/Salary level:  10,001 - 15,000  Baht)","ระดับค่าจ้าง/เงินเดือนต่อเดือน มากกว่า 15,000 บาท (Monthly wage/Salary level:  More than 15,000  Baht) ",ระดับค่าจ้าง/เงินเดือนต่อเดือน ไม่ทราบ บาท (Monthly wage/Salary level:  Unknown  Baht) ,Classification,Sub-class 1
+ทั่วราชอาณาจักร,รวมยอด,18814.0,95.7,674.2,6230.4,6016.1,5657.7,140.0,Whole Kingdom,Total
+เพศชาย,รวมยอด,9895.3,42.0,340.1,3250.6,3298.7,2895.7,68.3,Male,Total
+เพศชาย,ลูกจ้างรัฐบาล,1639.7,0.3,27.7,434.0,360.8,810.2,6.7,Male,Government sector
+เพศชาย,ลูกจ้างเอกชน ,8255.6,41.7,312.4,2816.6,2938.0,2085.5,61.6,Male,Private sector
+เพศหญิง,รวมยอด,8918.7,53.7,334.1,2979.8,2717.4,2762.0,71.8,Female,Total
+เพศหญิง,ลูกจ้างรัฐบาล,1893.8,0.7,29.1,395.6,387.2,1065.6,15.6,Female,Government sector
+เพศหญิง,ลูกจ้างเอกชน ,7024.9,53.0,305.0,2584.2,2330.2,1696.5,56.2,Female,Private sector
+อุตสาหกรรม,รวมยอด,18814.0,95.7,674.2,6230.4,6016.1,5657.7,140.0,Industry,Total
+อุตสาหกรรม,เกษตรกรรม การป่าไม้ และการประมง,1055.2,61.8,349.3,522.9,95.6,24.8,0.7,Industry,"Agriculture, forestry and fishing"
+อุตสาหกรรม,การทำเหมืองแร่และเหมืองหิน,34.3,-,2.2,5.6,15.5,11.1,-,Industry,Mining and quarrying
+อุตสาหกรรม,การผลิต,5079.6,7.0,60.6,1753.6,1857.0,1362.4,39.0,Industry,Manufacturing
+อุตสาหกรรม,ไฟฟ้า ก๊าซ ไอน้ำ และระบบปรับอากาศ,103.4,-,-,16.7,24.4,62.3,-,Industry,"Electricity, gas, steam and air conditioning supply"
+อุตสาหกรรม,การจัดหาน้ำ การจัดการและการบำบัดน้ำเสียของเสีย และสิ่งปฏิกูล,58.1,0.2,2.0,23.9,9.7,22.3,-,Industry,"Water supply; sewerage, waste management and remediation activities"
+อุตสาหกรรม,การก่อสร้าง,1475.5,2.2,45.5,686.1,527.3,206.2,8.1,Industry,Construction
+อุตสาหกรรม,การขายส่ง และการขายปลีก การซ่อมยานยนต์ และจักรยานยนต์,3007.2,4.8,43.1,1039.0,1224.2,687.4,8.8,Industry,Wholesale and retail trade; repair of motor vehicles and motorcycles
+อุตสาหกรรม,การขนส่งและสถานที่เก็บสินค้า,757.1,0.2,9.1,138.7,310.8,294.1,4.4,Industry,Transportation and storage
+อุตสาหกรรม,ที่พักแรมและบริการด้านอาหาร,1089.1,3.4,31.8,511.1,372.2,166.6,4.1,Industry,Accommodation and food service activities
+อุตสาหกรรม,ข้อมูลข่าวสารและการสื่อสาร,169.7,-,-,7.5,30.5,128.1,3.8,Industry,Information and communication
+อุตสาหกรรม,กิจกรรมทางการเงินและการประกันภัย,482.4,-,0.3,36.4,105.6,338.0,2.1,Industry,Financial and insurance activities
+อุตสาหกรรม,กิจกรรมอสังหาริมทรัพย์,239.5,1.2,0.1,73.5,90.4,72.8,1.5,Industry,Real estate activities
+อุตสาหกรรม,กิจกรรมทางวิชาชีพ วิทยาศาสตร์ และเทคนิค,321.6,--,1.0,20.4,65.5,219.6,15.1,Industry,"Professional, scientific and technical activities"
+อุตสาหกรรม,กิจกรรมการบริหารและการบริการสนับสนุน,599.4,1.1,5.8,161.6,311.3,109.7,9.9,Industry,Administrative and support service activities
+อุตสาหกรรม,การบริหารราชการ การป้องกันประเทศ การประกันสังคมภาคบังคับ,1718.7,0.1,42.7,495.2,381.4,787.5,11.9,Industry,Public administration and defence; compulsory social security
+อุตสาหกรรม,การศึกษา,1074.6,1.0,16.3,196.3,196.4,659.5,5.0,Industry,Education
+อุตสาหกรรม,กิจกรรมด้านสุขภาพและงานสังคมสงเคราะห์,758.2,0.3,5.2,142.7,199.6,403.7,6.7,Industry,Human health and social work activities
+อุตสาหกรรม,ศิลปะ ความบันเทิง และนันทนาการ,134.3,0.2,9.2,45.2,46.0,31.6,2.1,Industry,"Arts, entertainment and recreation"
+อุตสาหกรรม,กิจกรรมบริการด้านอื่น ๆ,412.1,6.5,32.6,239.8,89.6,40.4,3.2,Industry,Other service activities
+อุตสาหกรรม,กิจกรรมการจ้างงานในครัวเรือนส่วนบุคคล กิจกรรมการผลิตสินค้าและบริการที่ทำขึ้นเองเพื่อใช้ในครัวเรือน ซึ่งไม่สามารถจำแนกกิจกรรมได้อย่างชัดเจน,215.9,5.6,17.5,112.9,62.3,17.5,-,Industry,Activities of households as employers; undifferentiated goods and services-producing activities of households for own use
+อุตสาหกรรม,กิจกรรมขององค์การระหว่างประเทศและภาคีสมาชิก,2.2,-,-,-,-,2.2,-,Industry,Activities of extraterritorial organizations and bodies
+อุตสาหกรรม,ไม่ทราบ,26.0,-,-,1.4,0.9,10.0,13.8,Industry,Unknown
+,,,,,,,,,,
+ที่มา: การสำรวจภาวะการทำงานของประชากร ทั่วราชอาณาจักร สำนักงานสถิติแห่งชาติ  กระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคม,,,,,,,,,,
+"Source: The Labour Force Survey Whole Kingdom,  National Statistical Office,  Ministry of Digital Economy and Society",,,,,,,,,,
