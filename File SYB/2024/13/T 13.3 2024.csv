@@ -1,0 +1,33 @@
+﻿ตาราง 13.3 การจำหน่ายพลังงานไฟฟ้า จำแนกตามประเภทผู้ใช้ พ.ศ. 2564 - 2566   ,,,,,,,,
+Table 13.3 Electric Sales Statistics by Type of Customers: 2021 - 2023,,,,,,,,
+,,,,,,,,
+,,,,,,,,(10^3 กิโลวัตต์/ชั่วโมง 10^3 kWh)
+การไฟฟ้า,รายการ,ประเภทผู้ใช้,2564 (2021),2565 (2022),2566 (2023),Electricity Authority,Item,Type of Customers
+การไฟฟ้านครหลวง  ,จำนวนผู้ใช้ไฟฟ้า (ราย),,4109479,4179156,4259656,Metropolitan Electricity Authority,Number of electricity users (Case),
+การไฟฟ้านครหลวง  ,รวมยอด,,49560761,51484320,53890808,Metropolitan Electricity Authority,Total,
+การไฟฟ้านครหลวง  ,พลังงานไฟฟ้าที่จำหน่าย,,49049969,50971520,53375674,Metropolitan Electricity Authority,Energy sales,
+การไฟฟ้านครหลวง  ,พลังงานไฟฟ้าที่จำหน่าย,บ้านอยู่อาศัย,15772084,15487026,16617828,Metropolitan Electricity Authority,Energy sales,Residences
+การไฟฟ้านครหลวง  ,พลังงานไฟฟ้าที่จำหน่าย,กิจการขนาดเล็ก,6743354,7096535,7568347,Metropolitan Electricity Authority,Energy sales,Small sized businesses
+การไฟฟ้านครหลวง  ,พลังงานไฟฟ้าที่จำหน่าย,กิจการขนาดกลาง,7886629,8446209,8747010,Metropolitan Electricity Authority,Energy sales,Medium sized businesses
+การไฟฟ้านครหลวง  ,พลังงานไฟฟ้าที่จำหน่าย,กิจการขนาดใหญ่,16675806,17627835,17741603,Metropolitan Electricity Authority,Energy sales,Large sized businesses
+การไฟฟ้านครหลวง  ,พลังงานไฟฟ้าที่จำหน่าย,กิจการเฉพาะอย่าง,1489033,1788562,2065970,Metropolitan Electricity Authority,Energy sales,Specific type of businesses
+การไฟฟ้านครหลวง  ,พลังงานไฟฟ้าที่จำหน่าย,ส่วนราชการและองค์กรที่ไม่แสวงหากำไร,129923,138407,140073,Metropolitan Electricity Authority,Energy sales,Government and non profit organizations 
+การไฟฟ้านครหลวง  ,พลังงานไฟฟ้าที่จำหน่าย,ไฟชั่วคราว,352138,372589,415512,Metropolitan Electricity Authority,Energy sales,Electricity for temporary use
+การไฟฟ้านครหลวง  ,พลังงานไฟฟ้าที่จำหน่าย,สถานีอัดประจุไฟฟ้า,1002,14357,79332,Metropolitan Electricity Authority,Energy sales,EV charging station
+การไฟฟ้านครหลวง  ,ไฟสาธารณะและไฟถนน,,510792,512801,515134,Metropolitan Electricity Authority,Street lighting,
+การไฟฟ้าส่วนภูมิภาค,จำนวนผู้ใช้ไฟฟ้า (ราย),,20985283,21389979,21714309, Provincial Electricity Authority,Number of electricity users (Case),
+การไฟฟ้าส่วนภูมิภาค,พลังงานไฟฟ้าที่จำหน่าย,,136395997,141000503,145044018, Provincial Electricity Authority,Energy sales,
+การไฟฟ้าส่วนภูมิภาค,พลังงานไฟฟ้าที่จำหน่าย,บ้านอยู่อาศัย,38518994,38263760,41112823, Provincial Electricity Authority,Energy sales,Residences
+การไฟฟ้าส่วนภูมิภาค,พลังงานไฟฟ้าที่จำหน่าย,กิจการขนาดเล็ก,13964422,14511835,15214327, Provincial Electricity Authority,Energy sales,Small sized businesses
+การไฟฟ้าส่วนภูมิภาค,พลังงานไฟฟ้าที่จำหน่าย,กิจการขนาดกลาง,21707914,22455810,23556487, Provincial Electricity Authority,Energy sales,Medium sized businesses
+การไฟฟ้าส่วนภูมิภาค,พลังงานไฟฟ้าที่จำหน่าย,กิจการขนาดใหญ่,56522010,58388941,57213598, Provincial Electricity Authority,Energy sales,Large sized businesses
+การไฟฟ้าส่วนภูมิภาค,พลังงานไฟฟ้าที่จำหน่าย,กิจการเฉพาะอย่าง,2530305,3507308,4399608, Provincial Electricity Authority,Energy sales,Specific type of businesses
+การไฟฟ้าส่วนภูมิภาค,พลังงานไฟฟ้าที่จำหน่าย,ส่วนราชการและองค์กรที่ไม่แสวงหากำไร…,70694,77393,82469, Provincial Electricity Authority,Energy sales,Government and non profit organizations
+การไฟฟ้าส่วนภูมิภาค,พลังงานไฟฟ้าที่จำหน่าย,สูบน้ำเพื่อการเกษตร,397768,334867,485015, Provincial Electricity Authority,Energy sales,Water pumping for agriculture
+การไฟฟ้าส่วนภูมิภาค,พลังงานไฟฟ้าที่จำหน่าย,ไฟชั่วคราว,895615,922973,1008464, Provincial Electricity Authority,Energy sales,Electricity for temporary use
+การไฟฟ้าส่วนภูมิภาค,พลังงานไฟฟ้าที่จำหน่าย,อัตราไฟสำรอง,153433,679231,389105, Provincial Electricity Authority,Energy sales,Electricity back-up
+การไฟฟ้าส่วนภูมิภาค,พลังงานไฟฟ้าที่จำหน่าย,อัตราไฟที่สามารถงดจ่ายไฟได้,1634816,1857880,1560813, Provincial Electricity Authority,Energy sales,Interruptible power distribution
+การไฟฟ้าส่วนภูมิภาค,พลังงานไฟฟ้าที่จำหน่าย,สถานีอัดประจุไฟฟ้า,25,505,21309, Provincial Electricity Authority,Energy sales,EV charging station
+,,,,,,,,
+ที่มา: การไฟฟ้านครหลวง และการไฟฟ้าส่วนภูมิภาค  กระทรวงมหาดไทย,,,,,,,,
+"Sources: Metropolitan Electricity Authority and Provincial Electricity Authority,  Ministry of Interior",,,,,,,,

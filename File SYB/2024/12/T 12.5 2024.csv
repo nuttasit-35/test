@@ -1,0 +1,25 @@
+﻿ตาราง 12.5 ผู้ที่ได้รับอนุญาตให้ก่อสร้าง จำนวนสิ่งก่อสร้าง และพื้นที่ของสิ่งก่อสร้างที่มิใช่อาคารโรงเรือน จำแนกตามลักษณะของการก่อสร้าง และภาค พ.ศ. 2566,,,,,,,,,
+"Table12.5 Permitted, Number and Area of Civil Engineering Construction by Kind of Construction and Region: 2023",,,,,,,,,
+,,,,,,,,,
+ภาค,รายการ,ก่อสร้างใหม่  New construction_จำนวนที่อนุญาต (Permitted number)_ราย (Person),ก่อสร้างใหม่  New construction_จำนวนที่อนุญาต (Permitted number)_แห่ง (Unit),ก่อสร้างใหม่  New construction_ความยาว (ม.) Length (m.) พื้นที่ก่อสร้าง  (ตร.ม.) Construction area (sq.m.),"ต่อเติม ดัดแปลง (Addition, Alteration)_จำนวนที่อนุญาต (Permitted number)_ราย_(Person)","ต่อเติม ดัดแปลง (Addition, Alteration)_จำนวนที่อนุญาต (Permitted number)_แห่ง (Unit)","ต่อเติม ดัดแปลง (Addition, Alteration)_ความยาว (ม.) (Length (m.) พื้นที่ก่อสร้าง (ตร.ม.) Construction area (sq.m.)",Region,Item
+ทั่วราชอาณาจักร,ความยาวเป็นเมตร (1),18782,29431,3193893,152,153,20430,Whole Kingdom,Length in metre(1)
+กรุงเทพมหานคร,ความยาวเป็นเมตร (1),5359,5531,972835,82,82,6467,Bangkok ,Length in metre(1)
+ปริมณฑล,ความยาวเป็นเมตร (1),6190,14974,1135733,30,31,4044,Vicinities,Length in metre(1)
+ภาคกลาง,ความยาวเป็นเมตร (1),2945,3965,616109,27,27,8245,Central Region,Length in metre(1)
+ภาคเหนือ,ความยาวเป็นเมตร (1),1805,2010,178592,5,5,1423,Northern Region,Length in metre(1)
+ภาคตะวันออกเฉียงเหนือ,ความยาวเป็นเมตร (1),1974,2250,156749,7,7,185,Northeastern Region,Length in metre(1)
+ภาคใต้,ความยาวเป็นเมตร (1),509,701,133875,1,1,66,Southern Region,Length in metre(1)
+ทั่วราชอาณาจักร,พื้นที่เป็น ตร.ม.  (2),3931,5158,3001559,91,108,107468,Whole Kingdom,Area in sq.m.(2)
+กรุงเทพมหานคร,พื้นที่เป็น ตร.ม.  (2),395,412,140008,5,5,2492,Bangkok ,Area in sq.m.(2)
+ปริมณฑล,พื้นที่เป็น ตร.ม.  (2),1030,1610,1039290,31,33,64774,Vicinities,Area in sq.m.(2)
+ภาคกลาง,พื้นที่เป็น ตร.ม.  (2),1033,1291,946304,28,43,29578,Central Region,Area in sq.m.(2)
+ภาคเหนือ,พื้นที่เป็น ตร.ม.  (2),523,565,393653,8,8,1446,Northern Region,Area in sq.m.(2)
+ภาคตะวันออกเฉียงเหนือ,พื้นที่เป็น ตร.ม.  (2),403,486,202696,13,13,7602,Northeastern Region,Area in sq.m.(2)
+ภาคใต้,พื้นที่เป็น ตร.ม.  (2),547,794,279608,6,6,1576,Southern Region,Area in sq.m.(2)
+,,,,,,,,,
+(1) รั้ว/กำแพง ถนน/ทางรถไฟ สะพาน เขื่อน/คันดิน ท่อ/ทางระบายน้ำ และอื่น ๆ,,,,,,,,,
+"(1) Fence/wall, road/railroad, bridge, dam, water drain and others",,,,,,,,,
+(2) สระว่ายน้ำ ปั๊มน้ำมัน ท่าเรือ สนามกีฬา ลานจอดรถ ป้ายโฆษณา และอื่น ๆ,,,,,,,,,
+"(2) Swimming pool, petrol station, harbour, sport ground, car park, advertising board and others",,,,,,,,,
+ ที่มา: การประมวลข้อมูลพื้นที่การก่อสร้าง สำนักงานสถิติแห่งชาติ กระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคม,,,,,,,,,
+"Source: The Construction Area,  National Statistical Office,  Ministry of Digital of Economy and Society",,,,,,,,,
