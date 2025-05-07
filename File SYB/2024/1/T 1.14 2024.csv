@@ -1,0 +1,94 @@
+﻿"ตาราง 1.14 การตาย และอัตราตายต่อประชากร 1,000 คน จำแนกตามภาค และจังหวัด พ.ศ. 2564 - 2565",,,,,,,,,
+"Table 1.14 Deaths and Crude Death Rate per 1,000 Population by Region and Province:  2021 - 2022",,,,,,,,,
+,,,,,,,,,
+ภาค,จังหวัด,ประชากรกลางปี2564 (Mid-year population 2021),ประชากรกลางปี 2565 (Mid-year population 2022),จำนวนการตาย 2564 (Number Deaths 2021),อัตราการตาย 2564 (Rate Deaths 2021),จำนวนการตาย 2565 (Number Deaths2022),อัตราการตาย 2564 (Rate Deaths 2021),Region,Province
+ทั่วราชอาณาจักร,ทั่วราชอาณาจักร,65212951,65152132,550042,8.4,584854,9.0,Whole Kingdom,Whole Kingdom
+กรุงเทพมหานครและปริมณฑล,กรุงเทพมหานครและปริมณฑล,10702142,10684623,105172,9.8,94086,8.8,Bangkok and Vicinities,Bangkok and Vicinities
+กรุงเทพมหานครและปริมณฑล,กรุงเทพมหานคร,5457986,5411503,57555,10.5,50097,9.3,Bangkok and Vicinities,Bangkok 
+กรุงเทพมหานครและปริมณฑล,สมุทรปราการ,1335201,1339787,12377,9.3,10607,7.9,Bangkok and Vicinities,Samut Prakan
+กรุงเทพมหานครและปริมณฑล,นนทบุรี,1272643,1282096,11029,8.7,10663,8.3,Bangkok and Vicinities,Nonthaburi
+กรุงเทพมหานครและปริมณฑล,ปทุมธานี,1173613,1185816,9810,8.4,9254,7.8,Bangkok and Vicinities,Pathum Thani
+กรุงเทพมหานครและปริมณฑล,นครปฐม,910832,910741,8116,8.9,8351,9.2,Bangkok and Vicinities,Nakhon Pathom
+กรุงเทพมหานครและปริมณฑล,สมุทรสาคร,551867,554680,6285,11.4,5114,9.2,Bangkok and Vicinities,Samut Sakhon
+ภาคกลาง,ภาคกลาง,2996229,2986905,29908,10.0,30775,10.3,Central Region,Central Region
+ภาคกลาง,พระนครศรีอยุธยา,817688,818325,7958,9.7,7845,9.6,Central Region,Phra Nakhon Si Ayutthaya
+ภาคกลาง,อ่างทอง,275264,273259,3013,10.9,2993,11.0,Central Region,Ang Thong
+ภาคกลาง,ลพบุรี,739787,735954,7055,9.5,7319,9.9,Central Region,Lop Buri
+ภาคกลาง,สิงห์บุรี,204918,203368,2306,11.3,2418,11.9,Central Region,Sing Buri
+ภาคกลาง,ชัยนาท,321108,319015,3237,10.1,3579,11.2,Central Region,Chai Nat
+ภาคกลาง,สระบุรี,637464,636984,6339,9.9,6621,10.4,Central Region,Saraburi
+ภาคตะวันออก,ภาคตะวันออก,5071820,5099164,43222,8.5,46014,9.0,Eastern Region,Eastern Region
+ภาคตะวันออก,ชลบุรี,1553561,1566895,13091,8.4,13675,8.7,Eastern Region,Chon Buri
+ภาคตะวันออก,ระยอง,738941,747735,5816,7.9,6258,8.4,Eastern Region,Rayong
+ภาคตะวันออก,จันทบุรี,532365,532375,4852,9.1,5396,10.1,Eastern Region,Chanthaburi
+ภาคตะวันออก,ตราด,218893,218424,1815,8.3,1980,9.1,Eastern Region,Trat
+ภาคตะวันออก,ฉะเชิงเทรา,718455,721389,6027,8.4,6452,8.9,Eastern Region,Chachoengsao
+ภาคตะวันออก,ปราจีนบุรี,493492,495456,4510,9.1,4655,9.4,Eastern Region,Prachin Buri
+ภาคตะวันออก,นครนายก,258860,259001,2842,11.0,2869,11.1,Eastern Region,Nakhon Nayok
+ภาคตะวันออก,สระแก้ว,557253,557889,4269,7.7,4729,8.5,Eastern Region,Sa Kaeo
+ภาคตะวันตก,ภาคตะวันตก,3700142,3695249,32410,8.8,34571,9.4,Western Region,Western Region
+ภาคตะวันตก,ราชบุรี,842393,840438,8066,9.6,8557,10.2,Western Region,Ratchaburi
+ภาคตะวันตก,กาญจนบุรี,815685,816658,6264,7.7,6709,8.2,Western Region,Kanchanaburi
+ภาคตะวันตก,สุพรรณบุรี,834480,830485,8072,9.7,8715,10.5,Western Region,Suphan Buri
+ภาคตะวันตก,สมุทรสงคราม,189672,188382,1983,10.5,1818,9.7,Western Region,Samut Songkhram
+ภาคตะวันตก,เพชรบุรี,478412,478702,4003,8.4,4316,9.0,Western Region,Phetchaburi
+ภาคตะวันตก,ประจวบคีรีขันธ์,539500,540584,4022,7.5,4456,8.2,Western Region,Prachuap Khiri Khan
+ภาคเหนือ,ภาคเหนือ,11538627,11502479,101792,8.8,114860,10.0,Northern Region,Northern Region
+ภาคเหนือ,เชียงใหม่,1628663,1630307,14781,9.1,16787,10.3,Northern Region,Chiang Mai
+ภาคเหนือ,ลำพูน,398627,397303,4054,10.2,4650,11.7,Northern Region,Lamphun
+ภาคเหนือ,ลำปาง,724121,718966,7496,10.4,8628,12.0,Northern Region,Lampang
+ภาคเหนือ,อุตรดิตถ์,446349,443428,4348,9.7,5008,11.3,Northern Region,Uttaradit
+ภาคเหนือ,แพร่,435338,431977,4476,10.3,5098,11.8,Northern Region,Phrae
+ภาคเหนือ,น่าน,474516,473414,3545,7.5,4171,8.8,Northern Region,Nan
+ภาคเหนือ,พะเยา,463502,460520,4194,9.0,4847,10.5,Northern Region,Phayao
+ภาคเหนือ,เชียงราย,1168543,1167752,9340,8.0,10393,8.9,Northern Region,Chiang Rai
+ภาคเหนือ,แม่ฮ่องสอน,241222,241865,1360,5.6,1507,6.2,Northern Region,Mae Hong Son
+ภาคเหนือ,นครสวรรค์,1035700,1029949,9673,9.3,10703,10.4,Northern Region,Nakhon Sawan
+ภาคเหนือ,อุทัยธานี,325025,324019,2855,8.8,3259,10.1,Northern Region,Uthai Thani
+ภาคเหนือ,กำแพงเพชร,711588,708881,5844,8.2,6608,9.3,Northern Region,Kamphaeng Phet
+ภาคเหนือ,ตาก,544261,546129,3697,6.8,4164,7.6,Northern Region,Tak
+ภาคเหนือ,สุโขทัย,585913,582772,5357,9.1,6010,10.3,Northern Region,Sukhothai
+ภาคเหนือ,พิษณุโลก,846815,844247,7600,9.0,8568,10.1,Northern Region,Phitsanulok
+ภาคเหนือ,พิจิตร,530233,527051,4653,8.8,5236,9.9,Northern Region,Phichit
+ภาคเหนือ,เพชรบูรณ์,978211,973899,8519,8.7,9223,9.5,Northern Region,Phetchabun
+ภาคตะวันออกเฉียงเหนือ,ภาคตะวันออกเฉียงเหนือ,21788250,21753292,171098,7.9,191780,8.8,Northeastern Region,Northeastern Region
+ภาคตะวันออกเฉียงเหนือ,นครราชสีมา,2629023,2627292,20651,7.9,24019,9.1,Northeastern Region,Nakhon Ratchasima
+ภาคตะวันออกเฉียงเหนือ,บุรีรัมย์,1578458,1576213,11602,7.4,13489,8.6,Northeastern Region,Buri Ram
+ภาคตะวันออกเฉียงเหนือ,สุรินทร์,1375749,1373026,10742,7.8,11872,8.6,Northeastern Region,Surin
+ภาคตะวันออกเฉียงเหนือ,ศรีสะเกษ,1456828,1454826,10700,7.3,12205,8.4,Northeastern Region,Si Sa Ket
+ภาคตะวันออกเฉียงเหนือ,อุบลราชธานี,1859494,1860591,14226,7.7,15493,8.3,Northeastern Region,Ubon Ratchathani
+ภาคตะวันออกเฉียงเหนือ,ยโสธร,533604,532144,4511,8.5,5061,9.5,Northeastern Region,Yasothon
+ภาคตะวันออกเฉียงเหนือ,ชัยภูมิ,1122452,1118897,9676,8.6,11006,9.8,Northeastern Region,Chaiyaphum
+ภาคตะวันออกเฉียงเหนือ,อำนาจเจริญ,375499,375099,2687,7.2,3092,8.2,Northeastern Region,Amnat Charoen
+ภาคตะวันออกเฉียงเหนือ,บึงกาฬ,421247,421042,2951,7.0,3259,7.7,Northeastern Region,Bueng Kan
+ภาคตะวันออกเฉียงเหนือ,หนองบัวลำภู,508643,508016,3647,7.2,4087,8.0,Northeastern Region,Nong Bua Lam Phu
+ภาคตะวันออกเฉียงเหนือ,ขอนแก่น,1789131,1784046,15501,8.7,17204,9.6,Northeastern Region,Khon Kaen
+ภาคตะวันออกเฉียงเหนือ,อุดรธานี,1559860,1557282,12280,7.9,13364,8.6,Northeastern Region,Udon Thani
+ภาคตะวันออกเฉียงเหนือ,เลย,634694,633990,5173,8.2,5872,9.3,Northeastern Region,Loei
+ภาคตะวันออกเฉียงเหนือ,หนองคาย,512346,511509,3730,7.3,4139,8.1,Northeastern Region,Nong Khai
+ภาคตะวันออกเฉียงเหนือ,มหาสารคาม,950242,945678,7961,8.4,8687,9.2,Northeastern Region,Maha Sarakham
+ภาคตะวันออกเฉียงเหนือ,ร้อยเอ็ด,1296151,1292363,10653,8.2,11829,9.2,Northeastern Region,Roi Et
+ภาคตะวันออกเฉียงเหนือ,กาฬสินธุ์,975474,972899,8150,8.4,9013,9.3,Northeastern Region,Kalasin
+ภาคตะวันออกเฉียงเหนือ,สกลนคร,1145549,1144634,8406,7.3,9329,8.2,Northeastern Region,Sakon Nakhon
+ภาคตะวันออกเฉียงเหนือ,นครพนม,715482,715169,5354,7.5,5996,8.4,Northeastern Region,Nakhon Phanom
+ภาคตะวันออกเฉียงเหนือ,มุกดาหาร,348324,348576,2497,7.2,2764,7.9,Northeastern Region,Mukdahan
+ภาคใต้,ภาคใต้,9415741,9430420,66440,7.1,72768,7.7,Southern Region,Southern Region
+ภาคใต้,นครศรีธรรมราช,1547100,1544277,11469,7.4,13212,8.6,Southern Region,Nakhon Si Thammarat
+ภาคใต้,กระบี่,476366,477456,2719,5.7,3231,6.8,Southern Region,Krabi
+ภาคใต้,พังงา,264003,263634,1853,7.0,2052,7.8,Southern Region,Phang-nga
+ภาคใต้,ภูเก็ต,405235,407175,2392,5.9,2685,6.6,Southern Region,Phuket
+ภาคใต้,สุราษฏร์ธานี,1062199,1064655,7111,6.7,8129,7.6,Southern Region,Surat Thani
+ภาคใต้,ระนอง,179329,179550,1219,6.8,1195,6.7,Southern Region,Ranong
+ภาคใต้,ชุมพร,505241,505366,3808,7.5,4403,8.7,Southern Region,Chumphon
+ภาคใต้,สงขลา,1420085,1421462,10552,7.4,11749,8.3,Southern Region,Songkhla
+ภาคใต้,สตูล,323945,324534,1930,6.0,2107,6.5,Southern Region,Satun
+ภาคใต้,ตรัง,638773,637594,4320,6.8,5096,8.0,Southern Region,Trang
+ภาคใต้,พัทลุง,522472,521739,3817,7.3,4460,8.5,Southern Region,Phatthalung
+ภาคใต้,ปัตตานี,726205,729701,5635,7.8,5301,7.3,Southern Region,Pattani
+ภาคใต้,ยะลา,538960,542592,3772,7.0,3646,6.7,Southern Region,Yala
+ภาคใต้,นราธิวาส,805828,810685,5843,7.3,5502,6.8,Southern Region,Narathiwat
+,,,,,,,,,
+"หมายเหตุ: อัตราการตาย = (การตาย/ประชากร) x 1,000",,,,,,,,,
+"Note: Crude death rate = (Deaths/Population) x 1,000",,,,,,,,,
+ที่มา: สำนักงานปลัดกระทรวงสาธารณสุข,,,,,,,,,
+Source: Office of the Permanent Secretary Ministry of Public Health,,,,,,,,,

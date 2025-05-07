@@ -1,0 +1,92 @@
+﻿ตาราง 1.6 ประชากร และบ้านจากการทะเบียน จำแนกตามภาค จังหวัด และเขตการปกครอง พ.ศ. 2566,,,,,,
+"Table 1.6 Population and House from Registration Record by Region, Province and Administration Zone: 2023",,,,,,
+,,,,,,
+ภาค,จังหวัด,ประชากรในเขตเทศบาล (Population in Municipal  area),ประชากรนอกเขตเทศบาล (Population in Non-municipal area),จำนวนบ้าน (Number of house),Region,Province
+ทั่วราชอาณาจักร,ทั่วราชอาณาจักร,22601821,43450794,28675857,Whole Kingdom,Whole Kingdom
+กรุงเทพมหานครและปริมณฑล,กรุงเทพมหานครและปริมณฑล,8128744,2759659,6225863,Bangkok and Vicinities,Bangkok and Vicinities
+กรุงเทพมหานครและปริมณฑล,กรุงเทพมหานคร,5471588,-,3251621,Bangkok and Vicinities,Bangkok 
+กรุงเทพมหานครและปริมณฑล,สมุทรปราการ,641773,731197,767957,Bangkok and Vicinities,Samut Prakan
+กรุงเทพมหานครและปริมณฑล,นนทบุรี,784639,523453,756885,Bangkok and Vicinities,Nonthaburi
+กรุงเทพมหานครและปริมณฑล,ปทุมธานี,679815,539384,698024,Bangkok and Vicinities,Pathum Thani
+กรุงเทพมหานครและปริมณฑล,นครปฐม,290001,634520,434658,Bangkok and Vicinities,Nakhon Pathom
+กรุงเทพมหานครและปริมณฑล,สมุทรสาคร,260928,331105,316718,Bangkok and Vicinities,Samut Sakhon
+ภาคกลาง,ภาคกลาง,962525,2016489,1276371,Central Region,Central Region
+ภาคกลาง,พระนครศรีอยุธยา,328819,493287,356235,Central Region,Phra Nakhon Si Ayutthaya
+ภาคกลาง,อ่างทอง,70019,200707,104166,Central Region,Ang Thong
+ภาคกลาง,ลพบุรี,196630,533067,303427,Central Region,Lop Buri
+ภาคกลาง,สิงห์บุรี,51183,150256,81191,Central Region,Sing Buri
+ภาคกลาง,ชัยนาท,94239,221981,131349,Central Region,Chai Nat
+ภาคกลาง,สระบุรี,221635,417191,300003,Central Region,Saraburi
+ภาคตะวันออก,ภาคตะวันออก,2087388,3118480,2991789,Eastern Region,Eastern Region
+ภาคตะวันออก,ชลบุรี,1109893,508173,1145520,Eastern Region,Chon Buri
+ภาคตะวันออก,ระยอง,369655,401534,560445,Eastern Region,Rayong
+ภาคตะวันออก,จันทบุรี,225424,311012,257417,Eastern Region,Chanthaburi
+ภาคตะวันออก,ตราด,53914,173138,112977,Eastern Region,Trat
+ภาคตะวันออก,ฉะเชิงเทรา,156971,573572,338168,Eastern Region,Chachoengsao
+ภาคตะวันออก,ปราจีนบุรี,60560,439003,238172,Eastern Region,Prachin Buri
+ภาคตะวันออก,นครนายก,25541,234576,108919,Eastern Region,Nakhon Nayok
+ภาคตะวันออก,สระแก้ว,85430,477472,230171,Eastern Region,Sa Kaeo
+ภาคตะวันตก,ภาคตะวันตก,1109608,2699448,1627978,Western Region,Western Region
+ภาคตะวันตก,ราชบุรี,289605,575141,344905,Western Region,Ratchaburi
+ภาคตะวันตก,กาญจนบุรี,223910,671371,365095,Western Region,Kanchanaburi
+ภาคตะวันตก,สุพรรณบุรี,220258,606133,319886,Western Region,Suphan Buri
+ภาคตะวันตก,สมุทรสงคราม,35732,152261,76343,Western Region,Samut Songkhram
+ภาคตะวันตก,เพชรบุรี,163038,320630,233561,Western Region,Phetchaburi
+ภาคตะวันตก,ประจวบคีรีขันธ์,177065,373912,288188,Western Region,Prachuap Khiri Khan
+ภาคเหนือ,ภาคเหนือ,3195040,8745284,5098866,Northern Region,Northern Region
+ภาคเหนือ,เชียงใหม่,673829,1123246,883862,Northern Region,Chiang Mai
+ภาคเหนือ,ลำพูน,174429,224011,191094,Northern Region,Lamphun
+ภาคเหนือ,ลำปาง,254924,456554,305171,Northern Region,Lampang
+ภาคเหนือ,อุตรดิตถ์,147425,292204,177596,Northern Region,Uttaradit
+ภาคเหนือ,แพร่,117654,308677,184393,Northern Region,Phrae
+ภาคเหนือ,น่าน,52125,420597,178167,Northern Region,Nan
+ภาคเหนือ,พะเยา,200062,258225,202202,Northern Region,Phayao
+ภาคเหนือ,เชียงราย,371023,927954,586117,Northern Region,Chiang Rai
+ภาคเหนือ,แม่ฮ่องสอน,20101,267543,121896,Northern Region,Mae Hong Son
+ภาคเหนือ,นครสวรรค์,181706,840177,433815,Northern Region,Nakhon Sawan
+ภาคเหนือ,อุทัยธานี,54261,268012,130318,Northern Region,Uthai Thani
+ภาคเหนือ,กำแพงเพชร,192047,512901,288391,Northern Region,Kamphaeng Phet
+ภาคเหนือ,ตาก,146088,545626,236902,Northern Region,Tak
+ภาคเหนือ,สุโขทัย,126372,451494,227208,Northern Region,Sukhothai
+ภาคเหนือ,พิษณุโลก,190576,651153,368521,Northern Region,Phitsanulok
+ภาคเหนือ,พิจิตร,127659,394248,204897,Northern Region,Phichit
+ภาคเหนือ,เพชรบูรณ์,164759,802662,378316,Northern Region,Phetchabun
+ภาคตะวันออกเฉียงเหนือ,ภาคตะวันออกเฉียงเหนือ,4407902,17309073,7585586,Northeastern Region,Northeastern Region
+ภาคตะวันออกเฉียงเหนือ,นครราชสีมา,607745,2018049,1063007,Northeastern Region,Nakhon Ratchasima
+ภาคตะวันออกเฉียงเหนือ,บุรีรัมย์,331517,1241713,497860,Northeastern Region,Buri Ram
+ภาคตะวันออกเฉียงเหนือ,สุรินทร์,88862,1278980,421268,Northeastern Region,Surin
+ภาคตะวันออกเฉียงเหนือ,ศรีสะเกษ,169130,1281203,416240,Northeastern Region,Si Sa Ket
+ภาคตะวันออกเฉียงเหนือ,อุบลราชธานี,401902,1467706,652557,Northeastern Region,Ubon Ratchathani
+ภาคตะวันออกเฉียงเหนือ,ยโสธร,53354,475524,186684,Northeastern Region,Yasothon
+ภาคตะวันออกเฉียงเหนือ,ชัยภูมิ,171372,942006,418980,Northeastern Region,Chaiyaphum
+ภาคตะวันออกเฉียงเหนือ,อำนาจเจริญ,62854,311283,126956,Northeastern Region,Amnat Charoen
+ภาคตะวันออกเฉียงเหนือ,บึงกาฬ,96260,324227,145677,Northeastern Region,Bueng Kan
+ภาคตะวันออกเฉียงเหนือ,หนองบัวลำภู,110454,396418,159950,Northeastern Region,Nong Bua Lam Phu
+ภาคตะวันออกเฉียงเหนือ,ขอนแก่น,556595,1222778,680877,Northeastern Region,Khon Kaen
+ภาคตะวันออกเฉียงเหนือ,อุดรธานี,476688,1081840,557058,Northeastern Region,Udon Thani
+ภาคตะวันออกเฉียงเหนือ,เลย,153828,481314,237489,Northeastern Region,Loei
+ภาคตะวันออกเฉียงเหนือ,หนองคาย,117913,396108,187581,Northeastern Region,Nong Khai
+ภาคตะวันออกเฉียงเหนือ,มหาสารคาม,120169,817746,317734,Northeastern Region,Maha Sarakham
+ภาคตะวันออกเฉียงเหนือ,ร้อยเอ็ด,254166,1030670,412826,Northeastern Region,Roi Et
+ภาคตะวันออกเฉียงเหนือ,กาฬสินธุ์,283443,684622,327426,Northeastern Region,Kalasin
+ภาคตะวันออกเฉียงเหนือ,สกลนคร,193515,949142,407975,Northeastern Region,Sakon Nakhon
+ภาคตะวันออกเฉียงเหนือ,นครพนม,83988,630296,242917,Northeastern Region,Nakhon Phanom
+ภาคตะวันออกเฉียงเหนือ,มุกดาหาร,74147,277448,124524,Northeastern Region,Mukdahan
+ภาคใต้,ภาคใต้,2710614,6802361,3869404,Southern Region,Southern Region
+ภาคใต้,นครศรีธรรมราช,285795,1255158,608533,Southern Region,Nakhon Si Thammarat
+ภาคใต้,กระบี่,87578,394543,204440,Southern Region,Krabi
+ภาคใต้,พังงา,31342,235715,123860,Southern Region,Phang-nga
+ภาคใต้,ภูเก็ต,272052,151547,285937,Southern Region,Phuket
+ภาคใต้,สุราษฏร์ธานี,443425,632363,539755,Southern Region,Surat Thani
+ภาคใต้,ระนอง,30180,163191,97081,Southern Region,Ranong
+ภาคใต้,ชุมพร,95761,413096,252386,Southern Region,Chumphon
+ภาคใต้,สงขลา,725529,706430,584425,Southern Region,Songkhla
+ภาคใต้,สตูล,62199,263271,110545,Southern Region,Satun
+ภาคใต้,ตรัง,108510,528507,243956,Southern Region,Trang
+ภาคใต้,พัทลุง,128130,392468,205036,Southern Region,Phatthalung
+ภาคใต้,ปัตตานี,127897,609180,204902,Southern Region,Pattani
+ภาคใต้,ยะลา,145147,404799,178717,Southern Region,Yala
+ภาคใต้,นราธิวาส,167069,652093,229831,Southern Region,Narathiwat
+,,,,,,
+ที่มา: กรมการปกครอง  กระทรวงมหาดไทย,,,,,,
+"Source:   Department of Provincial Administration, Ministry of Interior",,,,,,
