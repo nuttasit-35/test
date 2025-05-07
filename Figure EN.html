@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistical Yearbook Thailand</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        .brand img {
+            min-width: 180px;
+            width: 100%;
+            max-width: 220px;
+            height: auto;
+            /* ทำให้สัดส่วนรูปภาพไม่ผิดเพี้ยน */
+        }
+
+        .col-md-4 {
+            text-align: center;
+            /* จัดให้อยู่ตรงกลางแนวนอน */
+        }
+
+        .col-md-8 h3 {
+            margin-top: 10px;
+            /* เพิ่มระยะห่างระหว่างหัวข้อและรูปภาพ */
+        }
+
+        .col-md-4 img {
+            max-width: 70%;
+            height: auto;
+            display: block;
+            margin: auto;
+            /* ทำให้รูปภาพอยู่ตรงกลางในคอลัมน์ */
+        }
+
+        .header-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            background: white;
+            padding: 0.5rem 0;
+        }
+
+        .header-row h3 {
+            margin: 0;
+            font-size: 1.5rem;
+            /* ปรับขนาดให้เหมาะสม */
+        }
+
+        .navbar {
+            background-color: #f8f9fa;
+            /* สีพื้นหลังของแถบเมนู */
+            padding: 10px 20px;
+            border-bottom: 1px solid #ddd;
+            /* เส้นใต้ */
+        }
+
+        .nav-link {
+            color: #333;
+            padding: 10px 15px;
+            text-decoration: none;
+        }
+
+        .nav-link:hover {
+            color: #007bff;
+            /* เปลี่ยนสีเมื่อชี้ */
+        }
+
+        .nav-item {
+            margin: 0 5px;
+        }
+
+        .navbar-toggler {
+            background-color: #abcff5;
+            /* สีปุ่ม */
+            border: none;
+            padding: 5px 10px;
+            color: #fff;
+        }
+
+        /* กำหนดสไตล์สำหรับลิงก์ทั้งหมดใน .link-group footer*/
+        .link-group a {
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 5px;
+            /* ระยะห่างระหว่างลิงก์ */
+        }
+
+        /* สีเปลี่ยนเมื่อเอาเมาส์ไปชี้ footer*/
+        .link-group a:hover {
+            color: greenyellow;
+        }
+
+        .glow:hover {
+            filter: brightness(1.0);
+            /* เพิ่มความสว่างของปุ่ม 30% */
+            transition: 0.5s;
+            /* ทำให้เอฟเฟกต์นุ่มนวล */
+        }
+
+
+        /* กำหนดสไตล์สำหรับแถวตาราง .accordion-body*/
+        .list-group-item:nth-child(1):hover,
+        /* คำนำ */
+        .list-group-item:nth-child(2):hover,
+        /* คำอธิบายเพิ่มเติม */
+        .accordion-body:hover {
+            background-color: #f1f1f1;
+            /* สีพื้นหลังเมื่อ hover */
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        /* ทำให้ปุ่มสว่างขึ้น .accordion-body*/
+        .d-flex:hover .btn {
+            filter: brightness(1.2);
+            /* ทำให้ปุ่มสว่างขึ้น */
+        }
+
+        /* พื้นหลังปุ่มกดติดตามรับข่าวสาร */
+        .btn-custom-bg-white {
+            background-color: white;
+            /* พื้นหลังสีขาว */
+            border: 3px solid #ff8b06;
+            /* เส้นขอบสีส้มและหนา */
+            border-width: 2px;
+            /* เพิ่มความหนาของขอบ */
+            font-weight: bold;
+            /* เพิ่มความหนาของตัวอักษร */
+            color: #ff8b06;
+            /* ตัวอักษรสีส้ม */
+        }
+
+        /* พื้นหลังปุ่มกดติดตามรับข่าวสาร */
+        .btn-custom-bg-white:hover {
+            background-color: #ff8b06;
+            /* พื้นหลังสีส้มเมื่อ hover */
+            color: white;
+            /* ตัวอักษรสีขาวเมื่อ hover */
+            border-color: #ff8b06;
+            /* สีขอบเมื่อ hover */
+        }
+
+        /* ปุ่มประเมินความพึงพอใจ */
+        footer .button-1 {
+            display: inline-block;
+            background-image: url(https://www.nso.go.th/nsoweb/assets/dist/image/bg-button-1.jpg);
+            background-position: center;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            border: 0;
+            border-radius: 7px;
+            padding: 15px 20px;
+            /* ขนาด padding ปกติ */
+            font-size: 1em;
+            /* ขนาด font ปกติ */
+            color: #fff;
+            width: auto;
+            /* ปรับขนาดความกว้างให้เหมาะสม */
+            -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* ปรับขนาดปุ่มสำหรับมือถือ (หน้าจอที่กว้างน้อยกว่า 768px) */
+        @media (max-width: 768px) {
+            footer .button-1 {
+                padding: 10px 15px;
+                /* ลดขนาด padding สำหรับมือถือ */
+                font-size: 0.9em;
+                /* ลดขนาด font สำหรับมือถือ */
+            }
+        }
+
+        /* ปรับขนาดปุ่มสำหรับหน้าจอที่เล็กกว่า 480px (มือถือขนาดเล็ก) */
+        @media (max-width: 480px) {
+            footer .button-1 {
+                padding: 8px 12px;
+                /* ลดขนาด padding สำหรับมือถือขนาดเล็ก */
+                font-size: 0.8em;
+                /* ลดขนาด font สำหรับมือถือขนาดเล็ก */
+            }
+        }
+
+        /* การเพิ่มลูกเล่นให้กับการวางเมาส์ที่การ์ด */
+        .card {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        /* เมื่อผู้ใช้งานวางเมาส์บนการ์ด */
+        .card:hover {
+            transform: scale(1.05);
+            /* ขยายการ์ดขึ้นเล็กน้อย */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            /* เพิ่มเงาให้กับการ์ด */
+        }
+
+        /* เพิ่มสีพื้นหลังเมื่อเอาเมาส์ไปวางที่ dropdown */
+        .nav-item:hover>.dropdown-menu {
+            background-color: #f8f9fa;
+            /* สีพื้นหลังใหม่ */
+        }
+
+        /* เปลี่ยนสีพื้นหลังเมื่อเอาเมาส์ไปวางบนแต่ละรายการ */
+        .nav-item .dropdown-item:hover {
+            background-color: #007bff;
+            /* เปลี่ยนสีพื้นหลังเมื่อเอาเมาส์ไปวางบนแต่ละรายการ */
+            color: white;
+            /* เปลี่ยนสีตัวอักษรให้เป็นขาว */
+        }
+
+        /* เมื่อเมาส์ไปวางที่ตัว dropdown-toggle (แผนแม่บทสถิติประเทศไทย) */
+        .nav-item .dropdown-submenu:hover>a.dropdown-item.dropdown-toggle {
+            background-color: #007bff;
+            /* สีพื้นหลังของหัวเมนู */
+            color: white;
+            /* เปลี่ยนสีตัวอักษรให้เป็นขาว */
+        }
+
+        /* เมื่อเมาส์ไปวางที่ตัวรายการย่อย (เช่น แผนแม่บทสถิติประเทศไทย) */
+        .nav-item .dropdown-submenu .dropdown-item:hover {
+            background-color: #007bff;
+            color: white;
+        }
+
+        /* ทำให้เมนูย่อยไม่ขยายออกไปเกินพื้นที่ที่กำหนด */
+        .dropdown-submenu {
+            position: relative;
+        }
+
+        .dropdown-submenu>.dropdown-menu {
+            position: absolute;
+            top: 0;
+            /* หรือ top: 5px; ก็ได้ ถ้าต้องการให้มันเริ่มต้นที่ระยะห่าง */
+            left: 100%;
+            margin-left: 0px;
+            /* ช่องว่างระหว่างเมนูหลักกับเมนูย่อย */
+            transform: translateY(-9.5px);
+            /* ยกเมนูย่อยขึ้น 10px */
+        }
+
+        .dropdown-submenu>a.dropdown-toggle::after {
+            transform: rotate(-90deg);
+            display: inline-block;
+        }
+
+        #thailandStatDropdown+.dropdown-menu .dropdown-item {
+            padding-top: 0.75rem;
+            padding-bottom: 0.75rem;
+        }
+
+        #surveyDropdown+.dropdown-menu .dropdown-item {
+            padding-top: 0.75rem;
+            padding-bottom: 0.75rem;
+        }
+
+        #serviceDropdown+.dropdown-menu .dropdown-item {
+            padding-top: 0.75rem;
+            padding-bottom: 0.75rem;
+        }
+
+        #contactDropdown+.dropdown-menu .dropdown-item {
+            padding-top: 0.75rem;
+            padding-bottom: 0.75rem;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- หัว+เมนู -->
+    <header data-aos="fade-down" class="aos-init aos-animate">
+        <nav class="navbar">
+            <div class="container-xl d-flex align-items-center">
+                <!-- โลโก้ -->
+                <a class="brand mx-auto mx-lg-0" href="https://www.nso.go.th/nsoweb/index?set_lang=en">
+                    <img src="https://www.nso.go.th/nsoweb/assets/image/logo_en.png" alt="NSO">
+                </a>
+
+                <!-- เมนู -->
+                <ul class="nav d-none d-lg-flex mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://www.nso.go.th/nsoweb/index?set_lang=en">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="thailandStatDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Thailand Statistical System
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="thailandStatDropdown">
+
+                            <!-- แผนแม่บทสถิติประเทศไทย มี submenu -->
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle d-flex justify-content-between align-items-center"
+                                    href="#">Thailand Statistical System Masterplan</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item"
+                                            href="https://www.nso.go.th/nsoweb/statisticalSystemMasterPlan?set_lang=en">Thailand
+                                            Statistical System Masterplan</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://www.nso.go.th/nsoweb/committeeAndSubcommittee?set_lang=en">Committee/Sub-Committee</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://www.nso.go.th/nsoweb/ResponsibilityPlan?set_lang=en">Responsibility
+                                            plan/Official statistics development plan</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- สถิติมางการ มี submenu -->
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle d-flex justify-content-between align-items-center"
+                                    href="#">Official Statistics</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item"
+                                            href="https://www.nso.go.th/nsoweb/statistics_concept?set_lang=en">Official
+                                            Statistical Conceptual Framework</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://www.nso.go.th/nsoweb/officialStatistics?set_lang=en">Official
+                                            Statistics</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="https://www.nso.go.th/nsoweb/officialStatistics/area?set_lang=en">Area-based
+                                            Official Statistics</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- มาตรฐานสถิติ (ยังเป็นเมนูธรรมดา) -->
+                            <li><a class="dropdown-item"
+                                    href="https://www.nso.go.th/nsoweb/statisticalStandards?set_lang=en">Statistical
+                                    Standards</a></li>
+
+                            <!-- การจัดการคุณภาพสถิติทางการ (ยังเป็นเมนูธรรมดา) -->
+                            <li><a class="dropdown-item"
+                                    href="https://www.nso.go.th/nsoweb/management?set_lang=en">Statistical Quality
+                                    Management</a></li>
+
+                            <!-- การติดตามและรายงานผล มี submenu -->
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle d-flex justify-content-between align-items-center"
+                                    href="#">Monitoring and Reporting</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item"
+                                            href="https://www.nso.go.th/nsoweb/inter_stat_indicators/f?set_lang=en">Thailand
+                                            Statistical System Management Performance</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://www.nso.go.th/nsoweb/inter_stat_indicators/e?set_lang=en">Stat
+                                            Intelligence</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="https://www.nso.go.th/nsoweb/inter_stat_indicators/7?set_lang=en">Indexes/Indicators</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <!-- สำมะโน/สำรวจตัวอย่าง -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="surveyDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Census/Sample Survey
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="surveyDropdown">
+                            <li><a class="dropdown-item"
+                                    href="https://www.nso.go.th/nsoweb/main/summano/aE?set_lang=en">Population and
+                                    Housing Census</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.nso.go.th/nsoweb/main/summano/P7?set_lang=en">Agricultural
+                                    Census</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.nso.go.th/nsoweb/main/summano/Pf?set_lang=en">Industrial and
+                                    Business Census</a>
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.nso.go.th/nsoweb/nso/survey?set_lang=en">Search for Sample Survey
+                                    Data</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.nso.go.th/nsoweb/nso/survey/az?set_lang=en">Social Survey</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.nso.go.th/nsoweb/nso/survey/PA?set_lang=en">Economic Survey</a>
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.nso.go.th/nsoweb/nso/survey/Pa?set_lang=en">ICT Survey</a>
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.nso.go.th/nsoweb/nso/survey/Py?set_lang=en">Other Survey</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.nso.go.th/nsoweb/nso/survey/Pu?set_lang=en">Public opinion
+                                    Survey</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://surveybkk.nso.go.th/">Check Staff List
+                                    Information</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- บริการ -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="serviceDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Service
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="serviceDropdown">
+
+                            <!-- Dropdown ย่อย: บริการของ สสช. -->
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle d-flex justify-content-between align-items-center"
+                                    href="#">Statistical Information Service</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item"
+                                            href="https://www.nso.go.th/nsoweb/nso/statistics_and_indicators?set_lang=en">Statistics
+                                            and Key Indicators</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://www.nso.go.th/nsoweb/nso/statistical_system?set_lang=en">Statistical
+                                            Data Classified by Survey/Census Project</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://www.nso.go.th/nsoweb/nso/motion_graphics?set_lang=en">Motion &
+                                            Infographics</a></li>
+                                    <li><a class="dropdown-item" href="https://funstat.nso.go.th/en">Funstat</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="https://www.nso.go.th/public/e-book/NSOLetsRead/">NSO Let's read</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://www.nso.go.th/nsoweb/nso/interactive?set_lang=en">Interactive
+                                            Dashboard</a></li>
+                                    <li><a class="dropdown-item" href="https://nsodw.nso.go.th/dwportal/Home.aspx">Data
+                                            Warehouse</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="https://gis.nso.go.th/">NSO-GIS</a></li>
+                                    <li><a class="dropdown-item" href="http://wtc.nso.go.th/">System Presents Water
+                                            Management Indicators</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- Dropdown ย่อย: เอกสารรายงานสถิติ -->
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle d-flex justify-content-between align-items-center"
+                                    href="#">Publications</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item"
+                                            href="https://www.nso.go.th/nsoweb/nso/ebook?set_lang=en">eBook</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="https://e-purchase.nso.go.th/?set_lang=en">e-purchase</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://www.nso.go.th/nsoweb/category/z?set_lang=en">Client Stats &
+                                            Satisfaction</a>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle d-flex justify-content-between align-items-center"
+                                            href="#">Provincial Productivity</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item"
+                                                    href="https://www.nso.go.th/nsoweb/category/7H?set_lang=en">Infographic
+                                                    (One page)</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="https://www.nso.go.th/nsoweb/category/7b?set_lang=en">Pocket
+                                                    Book</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="https://www.nso.go.th/nsoweb/category/7u?set_lang=en">survey
+                                                    report</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Dropdown ย่อย: แลกเปลี่ยน/เชื่อมโยงข้อมูล -->
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle d-flex justify-content-between align-items-center"
+                                    href="#">Exchange/link information</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="https://stathub.nso.go.th/?lc=en&pg=0">Statistics
+                                            Sharing Hub</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="https://sdmx.nso.go.th/FusionMetadataRegistry/">TNSO Reference
+                                            Metadata Registry</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="https://osstat.nso.go.th/">Official Statistics
+                                            Thailand</a></li>
+                                    <li><a class="dropdown-item" href="https://catalog.nso.go.th/">NSO Data Catalog</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Dropdown ย่อย: ระบบบัญชีข้อมูลภาครัฐ -->
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle d-flex justify-content-between align-items-center"
+                                    href="#">Government Data Catalog</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="https://gdcatalog.go.th/en/">Government Data
+                                            Catalog</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="https://directory.gdcatalog.go.th/">Directory</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="https://gdhelppage.gdcatalog.go.th/">Government
+                                            Data Catalog Helppage</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="https://geo.gdcatalog.go.th/">Geo Map</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Dropdown ย่อย: บริการวิชาการ/องค์ความรู้ -->
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle d-flex justify-content-between align-items-center"
+                                    href="#">Academic service/Knowledge</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item"
+                                            href="https://nsotraining.nso.go.th/index.php">Registration system for
+                                            online training registration</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="https://www.nso.go.th/nsoweb/nso/term_definition?set_lang=en">Glossary
+                                            of Statistical terms</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://www.nso.go.th/nsoweb/category/74?set_lang=en">Knowledge</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- ปกติ: ปฏิทินการเผยแพร่ข้อมูล -->
+                            <li><a class="dropdown-item"
+                                    href="https://www.nso.go.th/nsoweb/main/schedule_calendar?set_lang=en">Information
+                                    Dissemination Calendar</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <!-- ติดต่อ สสช. -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="contactDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Contact Us
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="contactDropdown">
+                            <li><a class="dropdown-item"
+                                    href="https://www.nso.go.th/nsoweb/main/contact?set_lang=en">NSO Contact</a></li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle d-flex justify-content-between align-items-center"
+                                    href="#">Contact Information Service</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item"
+                                            href="https://www.nso.go.th/nsoweb/category/7c?set_lang=en">Information
+                                            Service Announcement</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://www.nso.go.th/nsoweb/category/C?set_lang=en">Terms of
+                                            Service</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="https://www.nso.go.th/nsoweb/nso/contact_for_service?set_lang=en">Contact
+                                            for Service</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://www.nso.go.th/nsoweb/category/6?set_lang=en">Information
+                                            Service Operation Manual</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://www.nso.go.th/nsoweb/category/eE?set_lang=en">Request
+                                            Information Service</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.nso.go.th/nsoweb/main/link_dep_province?set_lang=en">Provincial
+                                    Statistical Office</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://suggestion.nso.go.th/">Complaints/Suggestions</a>
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://suggestion.nso.go.th/index_corruption.php">Complaints of Fraud and
+                                    Misconduct</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://www.nso.go.th/nsoweb/webboard/index">Webboard</a>
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.nso.go.th/nsoweb/questionnaire?set_lang=en">Questionnaire</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://www.nso.go.th/nsoweb/faq?set_lang=en">FAQ</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- เมนูแบบเลื่อนลง (มือถือ) -->
+                <button class="navbar-toggler d-lg-none ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <!-- เมนูแบบเลื่อนลง (สำหรับมือถือ) -->
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://www.nso.go.th/nsoweb/index?set_lang=en">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse"
+                            href="#mobileThailandStat" role="button" aria-expanded="false"
+                            aria-controls="mobileThailandStat">
+                            Thailand Statistical System
+                            <span class="ms-auto">▼</span>
+                        </a>
+                        <div class="collapse ps-3" id="mobileThailandStat">
+
+                            <!-- Submenu: Masterplan -->
+                            <a class="nav-link d-flex justify-content-between align-items-center"
+                                data-bs-toggle="collapse" href="#mobileMasterplan" role="button" aria-expanded="false"
+                                aria-controls="mobileMasterplan">
+                                Thailand Statistical System Masterplan
+                                <span class="ms-auto">▼</span>
+                            </a>
+                            <div class="collapse ps-3" id="mobileMasterplan">
+                                <a class="nav-link"
+                                    href="https://www.nso.go.th/nsoweb/statisticalSystemMasterPlan?set_lang=en">Masterplan</a>
+                                <a class="nav-link"
+                                    href="https://www.nso.go.th/nsoweb/committeeAndSubcommittee?set_lang=en">Committee/Sub-Committee</a>
+                                <a class="nav-link"
+                                    href="https://www.nso.go.th/nsoweb/ResponsibilityPlan?set_lang=en">Responsibility
+                                    Plan</a>
+                            </div>
+
+                            <!-- Submenu: Official Statistics -->
+                            <a class="nav-link d-flex justify-content-between align-items-center"
+                                data-bs-toggle="collapse" href="#mobileOfficialStat" role="button" aria-expanded="false"
+                                aria-controls="mobileOfficialStat">
+                                Official Statistics
+                                <span class="ms-auto">▼</span>
+                            </a>
+                            <div class="collapse ps-3" id="mobileOfficialStat">
+                                <a class="nav-link"
+                                    href="https://www.nso.go.th/nsoweb/statistics_concept?set_lang=en">Conceptual
+                                    Framework</a>
+                                <a class="nav-link"
+                                    href="https://www.nso.go.th/nsoweb/officialStatistics?set_lang=en">Official
+                                    Statistics</a>
+                                <a class="nav-link"
+                                    href="https://www.nso.go.th/nsoweb/officialStatistics/area?set_lang=en">Area-based
+                                    Stats</a>
+                            </div>
+
+                            <!-- เมนูธรรมดา -->
+                            <a class="nav-link"
+                                href="https://www.nso.go.th/nsoweb/statisticalStandards?set_lang=en">Statistical
+                                Standards</a>
+                            <a class="nav-link" href="https://www.nso.go.th/nsoweb/management?set_lang=en">Statistical
+                                Quality Management</a>
+
+                            <!-- Submenu: Monitoring -->
+                            <a class="nav-link d-flex justify-content-between align-items-center"
+                                data-bs-toggle="collapse" href="#mobileMonitoring" role="button" aria-expanded="false"
+                                aria-controls="mobileMonitoring">
+                                Monitoring and Reporting
+                                <span class="ms-auto">▼</span>
+                            </a>
+                            <div class="collapse ps-3" id="mobileMonitoring">
+                                <a class="nav-link"
+                                    href="https://www.nso.go.th/nsoweb/inter_stat_indicators/f?set_lang=en">Thailand
+                                    Statistical System Management Performance</a>
+                                <a class="nav-link"
+                                    href="https://www.nso.go.th/nsoweb/inter_stat_indicators/e?set_lang=en">Stat
+                                    Intelligence</a>
+                                <a class="nav-link"
+                                    href="https://www.nso.go.th/nsoweb/inter_stat_indicators/7?set_lang=en">Indexes/Indicators</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Census/Sample Survey -->
+                    <li class="nav-item">
+                        <a class="nav-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse"
+                            href="#mobileSurvey" role="button" aria-expanded="false" aria-controls="mobileSurvey">
+                            Census/Sample Survey
+                            <span class="ms-auto">▼</span>
+                        </a>
+                        <div class="collapse ps-3" id="mobileSurvey">
+                            <a class="nav-link"
+                                href="https://www.nso.go.th/nsoweb/main/summano/aE?set_lang=en">Population and Housing
+                                Census</a>
+                            <a class="nav-link"
+                                href="https://www.nso.go.th/nsoweb/main/summano/P7?set_lang=en">Agricultural Census</a>
+                            <a class="nav-link"
+                                href="https://www.nso.go.th/nsoweb/main/summano/Pf?set_lang=en">Industrial and Business
+                                Census</a>
+                            <a class="nav-link" href="https://www.nso.go.th/nsoweb/nso/survey?set_lang=en">Search for
+                                Sample Survey Data</a>
+                            <a class="nav-link" href="https://www.nso.go.th/nsoweb/nso/survey/az?set_lang=en">Social
+                                Survey</a>
+                            <a class="nav-link" href="https://www.nso.go.th/nsoweb/nso/survey/PA?set_lang=en">Economic
+                                Survey</a>
+                            <a class="nav-link" href="https://www.nso.go.th/nsoweb/nso/survey/Pa?set_lang=en">ICT
+                                Survey</a>
+                            <a class="nav-link" href="https://www.nso.go.th/nsoweb/nso/survey/Py?set_lang=en">Other
+                                Survey</a>
+                            <a class="nav-link" href="https://www.nso.go.th/nsoweb/nso/survey/Pu?set_lang=en">Public
+                                opinion Survey</a>
+                            <a class="nav-link" href="https://surveybkk.nso.go.th/">Check Staff List Information</a>
+                        </div>
+                    </li>
+
+                    <!-- Service (mobile version) -->
+                    <li class="nav-item">
+                        <a class="nav-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse"
+                            href="#mobileService" role="button" aria-expanded="false" aria-controls="mobileService">
+                            Service
+                            <span class="ms-auto">▼</span>
+                        </a>
+                        <div class="collapse ps-3" id="mobileService">
+
+                            <!-- Statistical Information Service -->
+                            <a class="nav-link d-flex justify-content-between align-items-center"
+                                data-bs-toggle="collapse" href="#mobileStatInfo" role="button" aria-expanded="false"
+                                aria-controls="mobileStatInfo">
+                                Statistical Information Service
+                                <span class="ms-auto">▼</span>
+                            </a>
+                            <div class="collapse ps-3" id="mobileStatInfo">
+                                <a class="nav-link"
+                                    href="https://www.nso.go.th/nsoweb/nso/statistics_and_indicators?set_lang=en">Statistics
+                                    and Key Indicators</a>
+                                <a class="nav-link"
+                                    href="https://www.nso.go.th/nsoweb/nso/statistical_system?set_lang=en">Statistical
+                                    Data Classified by Survey/Census Project</a>
+                                <a class="nav-link"
+                                    href="https://www.nso.go.th/nsoweb/nso/motion_graphics?set_lang=en">Motion &
+                                    Infographics</a>
+                                <a class="nav-link" href="https://funstat.nso.go.th/en">Funstat</a>
+                                <a class="nav-link" href="https://www.nso.go.th/public/e-book/NSOLetsRead/">NSO Let's
+                                    Read</a>
+                                <a class="nav-link"
+                                    href="https://www.nso.go.th/nsoweb/nso/interactive?set_lang=en">Interactive
+                                    Dashboard</a>
+                                <a class="nav-link" href="https://nsodw.nso.go.th/dwportal/Home.aspx">Data Warehouse</a>
+                                <a class="nav-link" href="https://gis.nso.go.th/">NSO-GIS</a>
+                                <a class="nav-link" href="http://wtc.nso.go.th/">System Presents Water Management
+                                    Indicators</a>
+                            </div>
+
+                            <!-- Publications -->
+                            <a class="nav-link d-flex justify-content-between align-items-center"
+                                data-bs-toggle="collapse" href="#mobilePublications" role="button" aria-expanded="false"
+                                aria-controls="mobilePublications">
+                                Publications
+                                <span class="ms-auto">▼</span>
+                            </a>
+                            <div class="collapse ps-3" id="mobilePublications">
+                                <a class="nav-link" href="https://www.nso.go.th/nsoweb/nso/ebook?set_lang=en">eBook</a>
+                                <a class="nav-link" href="https://e-purchase.nso.go.th/?set_lang=en">e-purchase</a>
+                                <a class="nav-link" href="https://www.nso.go.th/nsoweb/category/z?set_lang=en">Client
+                                    Stats & Satisfaction</a>
+
+                                <!-- Provincial Productivity -->
+                                <a class="nav-link d-flex justify-content-between align-items-center"
+                                    data-bs-toggle="collapse" href="#mobileProvProduct" role="button"
+                                    aria-expanded="false" aria-controls="mobileProvProduct">
+                                    Provincial Productivity
+                                    <span class="ms-auto">▼</span>
+                                </a>
+                                <div class="collapse ps-3" id="mobileProvProduct">
+                                    <a class="nav-link"
+                                        href="https://www.nso.go.th/nsoweb/category/7H?set_lang=en">Infographic (One
+                                        page)</a>
+                                    <a class="nav-link"
+                                        href="https://www.nso.go.th/nsoweb/category/7b?set_lang=en">Pocket Book</a>
+                                    <a class="nav-link"
+                                        href="https://www.nso.go.th/nsoweb/category/7u?set_lang=en">Survey Report</a>
+                                </div>
+                            </div>
+
+                            <!-- Exchange/link information -->
+                            <a class="nav-link d-flex justify-content-between align-items-center"
+                                data-bs-toggle="collapse" href="#mobileExchange" role="button" aria-expanded="false"
+                                aria-controls="mobileExchange">
+                                Exchange/link information
+                                <span class="ms-auto">▼</span>
+                            </a>
+                            <div class="collapse ps-3" id="mobileExchange">
+                                <a class="nav-link" href="https://stathub.nso.go.th/?lc=en&pg=0">Statistics Sharing
+                                    Hub</a>
+                                <a class="nav-link" href="https://sdmx.nso.go.th/FusionMetadataRegistry/">Metadata
+                                    Registry</a>
+                                <a class="nav-link" href="https://osstat.nso.go.th/">Official Statistics Thailand</a>
+                                <a class="nav-link" href="https://catalog.nso.go.th/">NSO Data Catalog</a>
+                            </div>
+
+                            <!-- Government Data Catalog -->
+                            <a class="nav-link d-flex justify-content-between align-items-center"
+                                data-bs-toggle="collapse" href="#mobileGDC" role="button" aria-expanded="false"
+                                aria-controls="mobileGDC">
+                                Government Data Catalog
+                                <span class="ms-auto">▼</span>
+                            </a>
+                            <div class="collapse ps-3" id="mobileGDC">
+                                <a class="nav-link" href="https://gdcatalog.go.th/en/">Government Data Catalog</a>
+                                <a class="nav-link" href="https://directory.gdcatalog.go.th/">Directory</a>
+                                <a class="nav-link" href="https://gdhelppage.gdcatalog.go.th/">Government Data Catalog
+                                    Helppage</a>
+                                <a class="nav-link" href="https://geo.gdcatalog.go.th/">Geo Map</a>
+                            </div>
+
+                            <!-- Academic service/Knowledge -->
+                            <a class="nav-link d-flex justify-content-between align-items-center"
+                                data-bs-toggle="collapse" href="#mobileAcademic" role="button" aria-expanded="false"
+                                aria-controls="mobileAcademic">
+                                Academic service/Knowledge
+                                <span class="ms-auto">▼</span>
+                            </a>
+                            <div class="collapse ps-3" id="mobileAcademic">
+                                <a class="nav-link" href="https://nsotraining.nso.go.th/index.php">Registration system
+                                    for online training registration</a>
+                                <a class="nav-link"
+                                    href="https://www.nso.go.th/nsoweb/nso/term_definition?set_lang=en">Glossary of
+                                    Statistical terms</a>
+                                <a class="nav-link"
+                                    href="https://www.nso.go.th/nsoweb/category/74?set_lang=en">Knowledge</a>
+                            </div>
+
+                            <!-- Information Dissemination Calendar -->
+                            <a class="nav-link"
+                                href="https://www.nso.go.th/nsoweb/main/schedule_calendar?set_lang=en">Information
+                                Dissemination Calendar</a>
+                        </div>
+                    </li>
+
+                    <!-- Contact Us (mobile version) -->
+                    <li class="nav-item">
+                        <a class="nav-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse"
+                            href="#mobileContact" role="button" aria-expanded="false" aria-controls="mobileContact">
+                            Contact Us
+                            <span class="ms-auto">▼</span>
+                        </a>
+                        <div class="collapse ps-3" id="mobileContact">
+
+                            <!-- NSO Contact -->
+                            <a class="nav-link" href="https://www.nso.go.th/nsoweb/main/contact?set_lang=en">NSO
+                                Contact</a>
+
+                            <!-- Contact Information Service -->
+                            <a class="nav-link d-flex justify-content-between align-items-center"
+                                data-bs-toggle="collapse" href="#mobileContactInfo" role="button" aria-expanded="false"
+                                aria-controls="mobileContactInfo">
+                                Contact Information Service
+                                <span class="ms-auto">▼</span>
+                            </a>
+                            <div class="collapse ps-3" id="mobileContactInfo">
+                                <a class="nav-link"
+                                    href="https://www.nso.go.th/nsoweb/category/7c?set_lang=en">Information Service
+                                    Announcement</a>
+                                <a class="nav-link" href="https://www.nso.go.th/nsoweb/category/C?set_lang=en">Terms of
+                                    Service</a>
+                                <a class="nav-link"
+                                    href="https://www.nso.go.th/nsoweb/nso/contact_for_service?set_lang=en">Contact for
+                                    Service</a>
+                                <a class="nav-link" href="https://www.nso.go.th/nsoweb/category/6?set_lang=en">Service
+                                    Operation Manual</a>
+                                <a class="nav-link" href="https://www.nso.go.th/nsoweb/category/eE?set_lang=en">Request
+                                    Information Service</a>
+                            </div>
+
+                            <!-- Provincial Statistical Office -->
+                            <a class="nav-link"
+                                href="https://www.nso.go.th/nsoweb/main/link_dep_province?set_lang=en">Provincial
+                                Statistical Office</a>
+
+                            <!-- Complaints/Suggestions -->
+                            <a class="nav-link" href="https://suggestion.nso.go.th/">Complaints/Suggestions</a>
+
+                            <!-- Complaints of Fraud and Misconduct -->
+                            <a class="nav-link" href="https://suggestion.nso.go.th/index_corruption.php">Complaints of
+                                Fraud and Misconduct</a>
+
+                            <!-- Webboard -->
+                            <a class="nav-link" href="https://www.nso.go.th/nsoweb/webboard/index">Webboard</a>
+
+                            <!-- Questionnaire -->
+                            <a class="nav-link"
+                                href="https://www.nso.go.th/nsoweb/questionnaire?set_lang=en">Questionnaire</a>
+
+                            <!-- FAQ -->
+                            <a class="nav-link" href="https://www.nso.go.th/nsoweb/faq?set_lang=en">FAQ</a>
+                        </div>
+                    </li>
+
+
+
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- หัว+เมนู -->
+
+
+    <!-- เนื้อหาเล่ม Info -->
+    <div class="container mt-4">
+        <div class="px-3  text-end mb-4">
+            <a href="https://www.nso.go.th/nsoweb/index?set_lang=en" class="text-black">HOME</a> / <span> <a
+                    href="https://www.nso.go.th/nsoweb/nso/ebook?set_lang=en" class="text-primary">eBook / Print media
+                </a></span>
+            / <span>
+                <a href="Page SYB EN.html" class="text-primary">Statistical Yearbook 2024</a></span>
+            / <span>
+                <a href="Info SYB EN.html" class="text-primary">Infographics SYB 2024</a></span>
+        </div>
+
+
+        <!-- รูป + รายละเอียด -->
+        <h5 id="figure-title" style="text-align: left; margin-top: 50px;"></h5>
+
+        <div style="display: flex; justify-content: center; align-items: center; height: 90vh; margin-top: 25px;">
+            <iframe id="figure-frame" src="" style="border: none; width: 100vw; height: 90vh; max-width: 1200px;"></iframe>
+        </div>
+
+
+        <!-- รูป + รายละเอียด -->
+
+
+
+    </div>
+    <!-- เนื้อหาเล่ม Info -->
+
+    <!-- ส่วนท้าย -->
+
+    <footer class="py-3 my-5"
+        style="background-image: url('https://www.nso.go.th/nsoweb/assets/dist/image/bg-footer.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; opacity: 1; color: white;">
+        <div class="container">
+            <div class="row">
+                <!-- Logo and Address Column -->
+                <div class="col-12 col-md-3 mb-4">
+                    <a href="" class="brand mb-4 d-block">
+                        <img src="https://www.nso.go.th/nsoweb/assets/image/logo_en_bottom.png" alt="NSO-Logo"
+                            class="w-100">
+                    </a>
+                    <p class="mt-3">
+                        National Statistical Office.<br>
+                        The Government Complex, Building B<br>
+                        Chaeng Watthana Rd<br>
+                        Laksi Bangkok 10210 Thailand
+                    </p>
+
+                    <!-- เพิ่ม 4 กล่อง เบอร์ติดต่อ -->
+                    <div class="contact-box mt-3">
+                        <ul class="list-unstyled">
+                            <li style="color: white; text-decoration: none; margin-bottom: 10px;">
+                                <img src="https://img.icons8.com/ios/50/ffffff/phone.png" alt="Phone Icon"
+                                    style="width: 20px; margin-right: 10px;">
+                                0 2142 1234 (Public Relations)
+                            </li>
+                            <li style="color: white; text-decoration: none; margin-bottom: 10px;">
+                                <img src="https://img.icons8.com/ios/50/ffffff/email-open.png" alt="Email Icon"
+                                    style="width: 20px; margin-right: 10px;">
+                                prgroup@nso.go.th
+                            </li>
+                            <li style="color: white; text-decoration: none; margin-bottom: 10px;">
+                                <img src="https://img.icons8.com/ios/50/ffffff/phone.png" alt="Phone Icon"
+                                    style="width: 20px; margin-right: 10px;">
+                                0 2141 7500-3 (Data Service)
+                            </li>
+                            <li style="color: white; text-decoration: none; margin-bottom: 10px;">
+                                <img src="https://img.icons8.com/ios/50/ffffff/email-open.png" alt="Email Icon"
+                                    style="width: 20px; margin-right: 10px;">
+                                services@nso.go.th
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!-- About the Organization Column -->
+                <div class="col-6 col-md-3">
+                    <p style="font-size: 1.5rem;" class="mt-4"><strong>About us</strong></p>
+                    <ul class="list-unstyled mt-4 link-group">
+                        <li>
+                            <a href="https://www.nso.go.th/nsoweb/main/privacy_policy?set_lang=en">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="https://www.nso.go.th/nsoweb/main/website_policy?set_lang=en">WebSite Policy</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Services Column -->
+                <div class="col-6 col-md-3">
+                    <p style="font-size: 1.5rem;" class="mt-4"><strong>Services</strong></p>
+                    <ul class="list-unstyled mt-4 link-group">
+                        <li><a href="https://www.nso.go.th/nsoweb/nso/statistics_and_indicators?set_lang=en">Key
+                                statistics and indicators</a>
+                        </li>
+                        <li><a href="https://www.nso.go.th/nsoweb/nso/statistical_system?set_lang=en">Statistical data
+                                by census/sample project</a>
+                        </li>
+                        <li><a href="https://www.nso.go.th/nsoweb/nso/motion_graphics?set_lang=en">Motion &amp;
+                                Infographics</a>
+                        </li>
+                        <li><a href="https://funstat.nso.go.th/en">Funstat</a></li>
+                        <li><a href="https://www.nso.go.th/nsoweb/nso/interactive?set_lang=en">Interactive Dashboard</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <!-- Social Media Column -->
+                <div class="col-6 col-md-3">
+                    <p style="font-size: 1.5rem;" class="mt-4"><strong>News e-Newsletter</strong></p>
+                    <ul class="list-unstyled mt-4 d-flex justify-content-between gap-3 flex-wrap">
+                        <!-- Facebook -->
+                        <li>
+                            <a href="https://www.facebook.com/NSOOFTHAILAND" target="_blank"
+                                aria-label="Facebook: NSOOFTHAILAND">
+                                <img src="https://www.nso.go.th/nsoweb/assets/image/fb.png"
+                                    alt="Facebook: NSOOFTHAILAND" width="45" loading="lazy">
+                            </a>
+                        </li>
+                        <!-- Twitter -->
+                        <li>
+                            <a href="https://twitter.com/nsoofthailand" target="_blank"
+                                aria-label="Twitter: nsoofthailand">
+                                <img src="https://www.nso.go.th/nsoweb/assets/image/tw.png" alt="Twitter: nsoofthailand"
+                                    width="46" loading="lazy">
+                            </a>
+                        </li>
+                        <!-- Line -->
+                        <li>
+                            <a href="https://page.line.me/?accountId=298qbsbj" target="_blank" aria-label="LINE: NSO">
+                                <img src="https://www.nso.go.th/nsoweb/assets/image/ln.png" alt="LINE: NSO" width="45"
+                                    loading="lazy">
+                            </a>
+                        </li>
+                        <!-- YouTube -->
+                        <li>
+                            <a href="https://www.youtube.com/@nsoofthailand" target="_blank"
+                                aria-label="YouTube: nsoofthailand">
+                                <img src="https://www.nso.go.th/nsoweb/assets/image/ytube.png"
+                                    alt="YouTube: nsoofthailand" width="45" loading="lazy">
+                            </a>
+                        </li>
+                        <!-- Instagram -->
+                        <li>
+                            <a href="https://www.instagram.com/nsoofthailand" target="_blank"
+                                aria-label="Instagram: nsoofthailand">
+                                <img src="https://www.nso.go.th/nsoweb/assets/image/instr.png"
+                                    alt="Instagram: nsoofthailand" width="45" loading="lazy">
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="mb-3">
+                        <a href="https://www.nso.go.th/nsoweb/assessment?set_lang=en"
+                            class="button-1 text-center">Satisfaction assessment form</a>
+                    </div>
+
+                </div>
+
+                <!-- Copyright Section -->
+                <p class="text-center mt-3">Copyright 2025 National Statistical Office</p>
+            </div>
+    </footer>
+    <!-- ส่วนท้าย -->
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- เพิ่ม jQuery (ถ้ายังไม่ได้ใช้) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // เมื่อเอาเมาส์ไปวางที่ dropdown หรือ submenu ให้เปิด auto
+            $('.dropdown, .dropdown-submenu').mouseenter(function () {
+                $(this).addClass('show'); // เปิด dropdown
+                $(this).children('.dropdown-menu').addClass('show'); // เปิด menu
+            });
+
+            // เมื่อเอาเมาส์ออกจาก dropdown หรือ submenu ให้ปิด auto
+            $('.dropdown, .dropdown-submenu').mouseleave(function () {
+                $(this).removeClass('show'); // ปิด dropdown
+                $(this).children('.dropdown-menu').removeClass('show'); // ปิด menu
+            });
+        });
+    </script>
+
+    <script>
+        // ดึงค่าพารามิเตอร์จาก URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const figureNumber = urlParams.get('figure');
+
+        // ฟังก์ชั่นโหลดชื่อ figure จากไฟล์ JSON
+        async function loadFigureTitle() {
+            try {
+                const response = await fetch('File SYB/2024/Figure-eng.json');
+                const figures = await response.json();
+
+                if (figureNumber && figures[figureNumber]) {
+                    const title = figures[figureNumber];
+                    document.getElementById("figure-title").textContent = `Figure ${figureNumber}: ${title}`;
+                    document.getElementById("figure-frame").src = `File SYB/2024/${figureNumber}/Info ${figureNumber} 2024.pdf`;
+                } else if (figureNumber) {
+                    // ถ้าไม่มีชื่อใน JSON ก็ใส่แค่หมายเลข
+                    document.getElementById("figure-title").textContent = `Figure ${figureNumber}`;
+                    document.getElementById("figure-frame").src = `File SYB/2024/${figureNumber}/Info ${figureNumber} 2024.pdf`;
+                }
+            } catch (error) {
+                console.error('Error loading figure titles:', error);
+            }
+        }
+
+        // ตรวจสอบว่าเป็น PDF หรือไม่
+        function isPDF(url) {
+            return url.toLowerCase().endsWith(".pdf");
+        }
+
+        // ปรับขนาด iframe ให้พอดีกับเนื้อหา (เฉพาะ HTML ไม่รองรับ PDF)
+        function resizeIframe() {
+            const iframe = document.getElementById("figure-frame");
+            if (iframe && !isPDF(iframe.src)) {
+                try {
+                    iframe.style.height = iframe.contentWindow.document.body.scrollHeight + "px";
+                } catch (e) {
+                    console.error("Cannot access iframe content:", e);
+                }
+            }
+        }
+
+        // ตรวจจับการโหลดเนื้อหาใน iframe
+        document.getElementById("figure-frame").addEventListener("load", resizeIframe);
+
+        // เรียกโหลดชื่อ figure
+        loadFigureTitle();
+    </script>
+
+</body>
+
+</html>

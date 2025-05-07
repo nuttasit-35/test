@@ -1,0 +1,97 @@
+Figure  
+
+  <script>
+        let currentUtterance = null;
+        let isSpeaking = false;
+    
+        function speakFigureDescription(text) {
+            if (!text) return;
+    
+            if (isSpeaking) {
+                speechSynthesis.cancel();
+            }
+    
+            currentUtterance = new SpeechSynthesisUtterance(text);
+            currentUtterance.lang = 'th-TH';
+            currentUtterance.onstart = () => { isSpeaking = true; };
+            currentUtterance.onend = () => { isSpeaking = false; };
+            currentUtterance.onerror = () => { isSpeaking = false; };
+            speechSynthesis.speak(currentUtterance);
+        }
+    
+        function stopSpeaking() {
+            if (isSpeaking) {
+                speechSynthesis.cancel();
+            }
+        }
+    
+        const urlParams = new URLSearchParams(window.location.search);
+        const figureNumber = urlParams.get('figure');
+    
+        const figureImage = document.getElementById("figure-image");
+        const figureTitle = document.getElementById("figure-title");
+    
+        if (figureNumber) {
+            // โหลดชื่อแผนภูมิ
+            fetch('File SYB/2024/Figure-th.json')
+                .then(response => response.json())
+                .then(data => {
+                    if (data[figureNumber]) {
+                        figureTitle.textContent = `แผนภูมิที่ ${figureNumber} ${data[figureNumber]}`;
+                        figureImage.src = `File SYB/2024/${figureNumber}/Info ${figureNumber} 2024.jpg`;
+    
+                        figureImage.onerror = function() {
+                            figureImage.style.display = "none";
+                            figureTitle.textContent = `ไม่พบแผนภูมิที่ ${figureNumber}`;
+                        };
+    
+                        // โหลด alt text
+                        fetch('File SYB/2024/Figure-th-alt.json')
+                            .then(response => response.json())
+                            .then(altData => {
+                                if (altData[figureNumber]) {
+                                    const altText = altData[figureNumber];
+                                    figureImage.alt = altText;
+                                    figureImage.title = altText;
+                                } else {
+                                    const altText = `ไม่มีคำอธิบายสำหรับแผนภูมิที่ ${figureNumber}`;
+                                    figureImage.alt = altText;
+                                    figureImage.title = altText;
+                                }
+                            })
+                            .catch(error => {
+                                console.error("Error loading alt text:", error);
+                                figureImage.alt = "ไม่สามารถโหลดคำอธิบาย";
+                                figureImage.title = figureImage.alt;
+                            });
+    
+                        // โหลด speech text
+                        fetch('File SYB/2024/Figure-th-s.json')
+                            .then(response => response.json())
+                            .then(speechData => {
+                                if (speechData[figureNumber]) {
+                                    const speechText = speechData[figureNumber];
+    
+                                    // ✅ เพิ่ม event mouseenter/mouseleave ตอนโหลด speech เสร็จ
+                                    figureImage.addEventListener('mouseenter', () => speakFigureDescription(speechText));
+                                    figureImage.addEventListener('mouseleave', stopSpeaking);
+                                } else {
+                                    console.warn(`ไม่มีข้อความเสียงสำหรับแผนภูมิที่ ${figureNumber}`);
+                                }
+                            })
+                            .catch(error => {
+                                console.error("Error loading speech text:", error);
+                            });
+    
+                    } else {
+                        figureTitle.textContent = "ไม่พบข้อมูลแผนภูมิ";
+                    }
+                })
+                .catch(error => {
+                    console.error("Error loading JSON:", error);
+                    figureTitle.textContent = "ไม่สามารถโหลดข้อมูลแผนภูมิ";
+                });
+        } else {
+            figureTitle.textContent = "ไม่พบข้อมูลแผนภูมิ";
+        }
+    </script>

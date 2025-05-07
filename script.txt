@@ -1,0 +1,72 @@
+info SYB TH 
+ 
+  <script>
+        let currentUtterance = null;
+        let speakTimeout = null; // ตัวแปรสำหรับหน่วงเวลา
+
+        // ฟังก์ชันสำหรับการอ่านคำอธิบายจาก alt
+        function speakFigureDescription(figureNumber) {
+            const card = document.querySelector(`[data-figure-number="${figureNumber}"]`);
+            if (!card) return;
+
+            const img = card.querySelector('img');
+            const description = img?.alt || "ไม่มีคำอธิบายภาพ";
+
+            // ถ้ายังพูดอยู่ หรือ pending, ให้ cancel ก่อน
+            if (speechSynthesis.speaking || speechSynthesis.pending) {
+                speechSynthesis.cancel();
+            }
+
+            // เคลียร์ timeout เดิมถ้ามี
+            if (speakTimeout) {
+                clearTimeout(speakTimeout);
+            }
+
+            // หน่วงนิดหนึ่งก่อนเริ่มพูดใหม่
+            speakTimeout = setTimeout(() => {
+                currentUtterance = new SpeechSynthesisUtterance(description);
+                currentUtterance.lang = 'th-TH'; // ตั้งให้รองรับภาษาไทย
+                speechSynthesis.speak(currentUtterance);
+            }, 250); // หน่วง 250ms (ปรับได้ถ้าอยากเนียนกว่านี้)
+        }
+
+        // ฟังก์ชันหยุดการอ่านเสียง
+        function stopSpeaking() {
+            if (speakTimeout) {
+                clearTimeout(speakTimeout);
+                speakTimeout = null;
+            }
+            speechSynthesis.cancel();
+        }
+
+        // ฟังก์ชันเพิ่ม event listener สำหรับเมาส์
+        document.addEventListener("DOMContentLoaded", () => {
+            document.querySelectorAll('.card').forEach(card => {
+                const figureNumber = card.getAttribute('data-figure-number');
+                if (figureNumber) {
+                    // เมื่อเมาส์ไปวางที่ card
+                    card.addEventListener('mouseenter', () => speakFigureDescription(figureNumber));
+                    // เมื่อเอาเมาส์ออกจาก card
+                    card.addEventListener('mouseleave', stopSpeaking);
+                }
+            });
+
+            // ดึงข้อมูลจากไฟล์ JSON ที่ชื่อว่า Figure-th.json
+            fetch("File SYB/2024/Figure-th.json")
+                .then(response => response.json())
+                .then(data => {
+                    // ทำการ loop สำหรับ Figure 1 ถึง Figure 21
+                    for (let i = 1; i <= 21; i++) {
+                        const figureDescription = data[i.toString()];
+                        if (figureDescription) {
+                            const figureText = `แผนภูมิที่ ${i} ${figureDescription}`;
+                            const pElement = document.getElementById(`figure-description-${i}`);
+                            if (pElement) {
+                                pElement.textContent = figureText;
+                            }
+                        }
+                    }
+                })
+                .catch(error => console.error("Error loading JSON:", error));
+        });
+    </script>
