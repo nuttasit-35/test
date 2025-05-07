@@ -1,0 +1,20 @@
+﻿ตาราง  6.2  ประชากร ที่เจ็บป่วยและมีการรักษาพยาบาลในระหว่าง 1 เดือนก่อนวันสัมภาษณ์ จำแนกตามสวัสดิการค่ารักษาพยาบาลที่ใช้ในการเจ็บป่วยครั้งสุดท้าย  เพศ และสาเหตุของการเจ็บป่วย ครั้งสุดท้าย พ.ศ. 2566,,,,,,
+"Table  6.2  Population Being Ill and Getting Treatment in the Past Month Before the Date of Interview by Using Health Insurance for the Last Illness, Sex and Cause of the Last Illness: 2023",,,,,,
+,,,,,,
+สวัสดิการค่ารักษาพยาบาลที่ใช้ในการเจ็บป่วยครั้งสุดท้าย,เพศ (Sex)_ชาย (Male),เพศ (Sex)_หญิง (Female),สาเหตุของการเจ็บป่วยครั้งสุดท้าย (Cause of the last illness)_อาการป่วย/รู้สึกไม่สบาย (Ill or not feeling well),สาเหตุของการเจ็บป่วยครั้งสุดท้าย (Cause of the last illness)_อุบัติเหตุ/ถูกทำร้าย (Accident or physical violence),สาเหตุของการเจ็บป่วยครั้งสุดท้าย (Cause of the last illness)_ไปรับบริการอื่นๆ เนื่องจากโรคเรื้อรัง/โรคประจำตัว (Used health service of chronic disease),Using health insurance for the last illness
+รวมยอด,5492172,7621059,7466267,625752,5021212,Total
+ไม่มีสวัสดิการค่ารักษาพยาบาล,6502,29925,27443,6353,2631,Have not health insurance
+มีสวัสดิการค่ารักษาพยาบาล และใช้,3537367,4986377,3346032,410101,4767611,Have health insurance and used
+หลักประกันสุขภาพแห่งชาติ,2632623,3833721,2457620,282146,3726577,Universal coverage card (UC)
+ประกันสังคม/กองทุนเงินทดแทน,409713,563138,514954,58851,399045,Social security system/worker compensated fund (SSS)
+ข้าราชการ/ข้าราชการบำนาญ,311562,442567,200540,18133,535456,Civil servant medical benefits  scheme (CSMBS)
+รัฐวิสาหกิจ,34848,16119,31979,390,18598,State enterprise 
+องค์การปกครองส่วนท้องถิ่น,15579,5178,13032,2012,5713,Local government
+ประกันสุขภาพกับบริษัทประกัน,91750,81529,92483,25322,55473,Private health insurance
+สวัสดิการโดยนายจ้าง,18598,9978,20637,5345,2594,Health insurance covered by employer
+อื่น ๆ,22695,34147,14786,17903,24153,Others
+มีสวัสดิการฯ แต่ไม่ใช้,1947561,2604695,4091988,209298,250970,"Have health insurance, but did not use it"
+ไม่ทราบ,741,62,804,-,-,Unknown
+,,,,,,
+ที่มา:  การสำรวจอนามัยและสวัสดิการ  สำนักงานสถิติแห่งชาติ  กระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคม,,,,,,
+"Source:  The Health and Welfare Survey,  National Statistical Office,  Ministry of Digital Economy and Society",,,,,,
