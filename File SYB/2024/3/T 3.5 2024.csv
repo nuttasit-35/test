@@ -1,0 +1,45 @@
+﻿ตาราง 3.5 จำนวนและร้อยละของนักเรียน นิสิต นักศึกษาในระบบโรงเรียนต่อประชากรในวัยเรียน จำแนกตามระดับการศึกษา ชั้นเรียน และเพศ ปีการศึกษา 2565,,,,,,,,
+"Table 3.5 Number of Students in The Formal School System as a Percentage of Schools-age Population by Level of Education, Grade and Sex: Academic Year 2022",,,,,,,,
+,,,,,,,,
+ระดับการศึกษา,ชั้นเรียน,จำนวนนักเรียนรวมยอด (Total Number of Students),จำนวนนักเรียนชาย (Number of Students_Male),จำนวนนักเรียนหญิง (Female Number of Students),ประชากรในวัยเรียน (School-age population) (1),ร้อยละของนักเรียนต่อประชากรในวัยเรียน (Students as a percentage of school-age population) (2),Level of education,Grade
+รวมยอด (ไม่รวมระดับสูงกว่าปริญญาตรี),รวมยอด (ไม่รวมระดับสูงกว่าปริญญาตรี),12167096,5983219,6183877,14629997,83.17,Total (Excluding graduate degree),Total (Excluding graduate degree)
+ก่อนประถมศึกษา,ก่อนประถมศึกษา,1490175,763109,727066,1981049,75.22,Pre-elementary education,Pre-elementary education
+ก่อนประถมศึกษา,อนุบาล 1 (หลักสูตร 3 ปี ของ สช.),217393,109444,107949,614741,35.36,Pre-elementary education,Kindergarten 1 (3 yr. course for private schools)
+ก่อนประถมศึกษา,อนุบาล 2 (สช.)/อนุบาล 1,619385,318224,301161,662835,93.44,Pre-elementary education,Kindergarten 2 (3 yr. course for private schools)/Kindergarten 1 (2 yr. course for public schools)
+ก่อนประถมศึกษา,อนุบาล 3 (สช.)/อนุบาล 2,653279,335379,317900,703473,92.86,Pre-elementary education,Kindergarten 3 (3 yr. course for private schools)/Kindergarten 2 (2 yr. course for public schools)
+ก่อนประถมศึกษา,เด็กเล็ก,118,62,56,,0.02,Pre-elementary education,Pre-primary
+ประถมศึกษา,ประถมศึกษา,4616041,2380641,2235400,4651455,99.24,Elementary education,Elementary education
+ประถมศึกษา,ประถมศึกษาปีที่ 1,727745,375147,352598,710627,102.41,Elementary education,Grade 1
+ประถมศึกษา,ประถมศึกษาปีที่ 2,744959,384400,360559,740186,100.64,Elementary education,Grade 2
+ประถมศึกษา,ประถมศึกษาปีที่ 3,759149,391903,367246,780483,97.27,Elementary education,Grade 3
+ประถมศึกษา,ประถมศึกษาปีที่ 4,812741,419701,393040,790922,102.76,Elementary education,Grade 4
+ประถมศึกษา,ประถมศึกษาปีที่ 5,808773,416903,391870,827413,97.75,Elementary education,Grade 5
+ประถมศึกษา,ประถมศึกษาปีที่ 6,762674,392587,370087,801824,95.12,Elementary education,Grade 6
+มัธยมศึกษา,มัธยมศึกษา,4305693,2081723,2223970,4767780,90.31,Secondary education,Secondary education
+มัธยมศึกษา,มัธยมศึกษาตอนต้น,2275407,1156900,1118507,2350876,96.79,Secondary education,Lower secondary education
+มัธยมศึกษา,มัธยมศึกษาปีที่ 1,768640,394247,374393,771069,99.68,Secondary education,Grade 7
+มัธยมศึกษา,มัธยมศึกษาปีที่ 2,756016,384984,371032,788497,95.88,Secondary education,Grade 8
+มัธยมศึกษา,มัธยมศึกษาปีที่ 3,750751,377669,373082,791310,94.87,Secondary education,Grade 9
+มัธยมศึกษา,มัธยมศึกษาตอนปลาย,2030286,924823,1105463,2416904,84.00,Secondary education,Upper secondary education
+มัธยมศึกษา,มัธยมศึกษาปีที่ 4/ปวช. 1,707897,292439,415458,807179,87.70,Secondary education,Grade 10
+มัธยมศึกษา,มัธยมศึกษาปีที่ 5/ปวช. 2,651957,308715,343242,799760,81.52,Secondary education,Grade 11
+มัธยมศึกษา,มัธยมศึกษาปีที่ 6/ปวช. 3,670432,323669,346763,809965,82.77,Secondary education,Grade 12
+อุดมศึกษา,อุดมศึกษา,1894705,817536,1077169,,,Higher education,Higher education
+อุดมศึกษา,ปริญญาตรีและต่ำกว่า,1755187,757746,997441,3229713,54.34,Higher education,Undergraduate degree and below
+อุดมศึกษา,อุดมศึกษาปีที่ 1,575502,263874,311628,821449,70.06,Higher education,Higher education 1st yr.
+อุดมศึกษา,อุดมศึกษาปีที่ 2-4,1179685,493872,685813,2408264,48.98,Higher education,Higher education 2nd-4th yr.
+อุดมศึกษา,อุดมศึกษา (3),161432,67685,93747,,,Higher education,Higher education (3)
+อุดมศึกษา,สูงกว่าปริญญาตรี,139518,59790,79728,,,Graduate degree,Graduate degree
+อุดมศึกษา,ประกาศนียบัตร บัณฑิต,10744,3280,7464,,,Graduate degree,Graduate diploma
+อุดมศึกษา,ปริญญาโท,99222,42224,56998,,,Graduate degree,Master degree
+อุดมศึกษา,ประกาศนียบัตรบัณฑิตชั้นสูง,698,315,383,,,Graduate degree,Higher graduate diploma
+อุดมศึกษา,ปริญญาเอก,28854,13971,14883,,,Graduate degree,Doctorate degree
+,,,,,,,,
+(1) ข้อมูลจากสำนักบริหารการทะเบียน กรมการปกครอง ธ.ค. 2565,,,,,,,,
+"(1) Department of Provincal Administration, Ministry of Interior: December 2022",,,,,,,,
+(2) ร้อยละของนักเรียนต่อประชากรในวัยเรียนในช่วงอายุเดียวกัน บางชั้นปี เกิน 100% เนื่องจากเป็นการคำนวณอัตราการเข้าเรียนอย่างหยาบ ซึ่งจำนวนนักเรียนมากกว่าจำนวนประชากร,,,,,,,,
+"(2) Number of students as a percentage of population in same aged in some cases, enrolment rate is over 100% because it's the gross enrollment, the number of students is greater than the number of school-age population.",,,,,,,,
+(3) จำนวนนักเรียน นักศึกษา ช่วงอายุต่ำกว่า 3 ขวบ และมากกว่า 21 ปี ไม่นำไปคำนวณเป็นสัดส่วนนักเรียนต่อประชากร,,,,,,,,
+(3) Excluding students aged under 3 years and upper 21 years old.,,,,,,,,
+ที่มา: สำนักงานปลัดกระทรวงศึกษาธิการ,,,,,,,,
+Source: Office of the Permanent Secretary Ministry of Education,,,,,,,,
