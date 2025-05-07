@@ -1,0 +1,25 @@
+﻿ตาราง 15.16 อุบัติเหตุอันตรายในกิจการรถไฟ จำแนกตามลักษณะเหตุอันตราย ปีงบประมาณ 2564 - 2565,,,,
+Table 15.16 Dangerous Accident in Railway Operation by Type of Dangerous Accident: Fiscal Years  2021 - 2022,,,,
+,,,,
+ประเภท,2564 (2021),2565 (2022),อัตราการเปลี่ยนแปลง (Percent change)_2565 (2022),Type
+ขบวนรถตกราง จำนวน (ครั้ง),30,9,-70.0,DerailmentNumber (time)
+ขบวนรถตกราง ผู้บาดเจ็บ (คน),-,-,-,DerailmentInjury (person)
+ขบวนรถตกราง ตาย (คน),-,-,-,DerailmentCasualty (person)
+ยานพาหนะชนกับขบวนรถ จำนวน (ครั้ง),37,23,-37.8,Vehicle bumped into train Number (time)
+ยานพาหนะชนกับขบวนรถ ผู้บาดเจ็บ (คน),60,8,-86.7,Vehicle bumped into train Injury (person)
+ยานพาหนะชนกับขบวนรถ ตาย (คน),27,- ,-100.0,Vehicle bumped into train Casualty (person)
+ยานพาหนะชนกับขบวนรถ (ตกราง) จำนวน (ครั้ง),-,36,100.0,Vehicle bumped into train (derail) Number (time)
+ยานพาหนะชนกับขบวนรถ (ตกราง) ผู้บาดเจ็บ (คน),-,28,100.0,Vehicle bumped into train (derail) Injury (person)
+ยานพาหนะชนกับขบวนรถ (ตกราง) ตาย (คน),-,8,100.0,Vehicle bumped into train (derail) Casualty (person)
+ขบวนรถเฉี่ยว/ชนคน จำนวน (ครั้ง),56,70,25.0,Train bumped into people Number (time)
+ขบวนรถเฉี่ยว/ชนคน ผู้บาดเจ็บ (คน),15,17,13.3,Train bumped into people Injury (person)
+ขบวนรถเฉี่ยว/ชนคน ตาย (คน),41,54,31.7,Train bumped into people Casualty (person)
+คนตกรถ/กระโดดลงขบวนรถ จำนวน (ครั้ง),13,23,76.9,People jumped/Fell from train Number (time)
+คนตกรถ/กระโดดลงขบวนรถ ผู้บาดเจ็บ (คน),10,20,100.0,People jumped/Fell from train Injury (person)
+คนตกรถ/กระโดดลงขบวนรถ ตาย (คน),3,3,-,People jumped/Fell from train Casualty (person)
+เหตุอันตรายอื่นๆ จำนวน (ครั้ง),165,247,49.7,Other risks Number (time)
+เหตุอันตรายอื่นๆ ผู้บาดเจ็บ (คน),3,32,966.7,Other risks Injury (person)
+เหตุอันตรายอื่นๆ ตาย (คน),-,8,100.0,Other risks Casualty (person)
+,,,,
+ที่มา:  การรถไฟแห่งประเทศไทย กระทรวงคมนาคม,,,,
+"Source:  State Railway of Thailand, Ministry of Transport",,,,
