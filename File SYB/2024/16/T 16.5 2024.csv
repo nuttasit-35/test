@@ -1,0 +1,37 @@
+﻿ตาราง 16.5 ประชากรอายุ 6 ปีขึ้นไป จำแนกตามการใช้โทรศัพท์มือถือ/อินเทอร์เน็ต เพศ กลุ่มอายุ สถานภาพแรงงาน ระดับการศึกษา และภาค พ.ศ. 2566,,,,,,,,
+"Table 16.5 Population Aged 6 Years and Over by Mobile phone/the Internet Using, Sex, Age Group,Labour Force Status, Level of Education and Region: 2023",,,,,,,,
+,,,,,,,,
+,,,,,,,,(พันคน  Thousand persons)
+การจำแนก,การจำแนกระดับย่อย,ประชากร อายุ 6 ปีขึ้นไป (Population  aged 6 years  and over),จำนวนผู้ใช้  (Number of accessor)_โทรศัพท์มือถือ (Mobile phone),จำนวนผู้ใช้  (Number of accessor)_อินเทอร์เน็ต (Internet),ร้อยละ  (Percent)_โทรศัพท์มือถือ (Mobile phone),ร้อยละ  (Percent)_อินเทอร์เน็ต (Internet),Item,Sub-class 1
+รวมยอด,,65771.5,62476.9,58114.3,95.0,88.4,Total,
+เพศ,ชาย,31578.3,30114.8,28241.3,95.4,89.4,Sex,Male
+เพศ,หญิง,34193.2,32362.1,29873.0,94.6,87.4,Sex,Female
+กลุ่มอายุ (ปี),มิ.ย.-14,6850.8,6644.7,6646.7,97.0,97.0,Age group (year),มิ.ย.-14
+กลุ่มอายุ (ปี),15 - 24,9287.1,9216.4,9202.8,99.2,99.1,Age group (year),15 - 24
+กลุ่มอายุ (ปี),25 - 39,15001.3,14846.0,14776.2,99.0,98.5,Age group (year),25 - 39
+กลุ่มอายุ (ปี),40 - 59,21055.5,20572.5,19652.0,97.7,93.3,Age group (year),40 - 59
+กลุ่มอายุ (ปี),60 ปีขึ้นไป,13576.8,11197.3,7836.7,82.5,57.7,Age group (year),60 years and over
+สถานภาพแรงงาน(1),ผู้มีงานทำ,39901.6,39252.3,37279.1,98.4,93.4,Labour force status(1),Employed
+สถานภาพแรงงาน(1),ผู้ว่างงาน,396.3,390.3,385.2,98.5,97.2,Labour force status(1),Unemployed
+สถานภาพแรงงาน(1),กำลังแรงงานที่รอฤดูกาล,140.2,132.8,113.1,94.7,80.7,Labour force status(1),Seasonally inactive
+สถานภาพแรงงาน(1),ผู้ที่ไม่อยู่ในกำลังแรงงาน,18482.7,16056.8,13690.1,86.9,74.1,Labour force status(1),Persons not in the labour force
+ระดับการศึกษา,ไม่มีการศึกษา,2399.9,1712.5,1360.4,71.4,56.7,Level of education,No schooling
+ระดับการศึกษา,ต่ำกว่าประถมศึกษา,15305.9,13368.4,10371.8,87.3,67.8,Level of education,Less than elementary education
+ระดับการศึกษา,ประถมศึกษา,13262.4,12848.1,12166.9,96.9,91.7,Level of education,Elementary education
+ระดับการศึกษา,มัธยมศึกษาตอนต้น,10963.3,10850.6,10693.1,99.0,97.5,Level of education,Lower secondary education
+ระดับการศึกษา,มัธยมศึกษาตอนปลาย,11278.6,11196.3,11079.1,99.3,98.2,Level of education,Upper secondary education
+ระดับการศึกษา,อุดมศึกษา,12040.6,11994.1,11940.8,99.6,99.2,Level of education,Higher education
+ระดับการศึกษา,อื่นๆ(2),196.6,192.2,190.2,97.8,96.8,Level of education,Others(2)
+ระดับการศึกษา,ไม่ทราบ,324.4,314.9,312.0,97.1,96.2,Level of education,Unknown
+ภาค,กรุงเทพมหานคร,8598.4,8394.4,8209.7,97.6,95.5,Region,Bangkok
+ภาค,ภาคกลาง,20607.8,19811.9,18661.2,96.1,90.6,Region,Central Region
+ภาค,ภาคเหนือ,10554.4,9760.6,8615.7,92.5,81.6,Region,Northern Region
+ภาค,ภาคตะวันออกเฉียงเหนือ,16997.0,15956.3,14586.5,93.9,85.8,Region,Northeastern Region
+ภาค,ภาคใต้,9013.9,8553.7,8041.2,94.9,89.2,Region,Southern Region
+,,,,,,,,
+(1) ประชากรอายุ 15 ปีขึ้นไป,,,,,,,,
+(1) Population aged 15 years and over,,,,,,,,
+(2) รวมอาชีวะระยะสั้น,,,,,,,,
+(2) Including short course vocational,,,,,,,,
+ที่มา: การสำรวจการมีการใช้เทคโนโลยีสารสนเทศและการสื่อสารในครัวเรือน สำนักงานสถิติแห่งชาติ กระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคม,,,,,,,,
+"Source: The Households Survey on the Use of Information and Communication Technology, National Statistical Office Ministry of Digital Economy and Society",,,,,,,,
